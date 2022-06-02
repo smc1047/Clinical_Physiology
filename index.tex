@@ -1,0 +1,116 @@
+\input{./preamble.tex}
+% \input{./glossaries.tex}
+\input{./macros.tex}
+
+\begin{document}
+
+\title{manuscript in progress \\~\\ {\bf{\huge{Clinical Physiology:}}  \\ a muscle centered approach}}
+\author{Sean Collins \\ Bog Sniezek \\ Tom Sniezek}
+
+\date{Updated on \today}
+\maketitle
+
+%--copyright--------------------------------------------------
+\pagebreak
+\thispagestyle{empty}
+
+{\small
+Copyright \copyright ~2022 Sean Collins
+
+
+\vspace{0.2in}
+
+\begin{flushleft}
+PT Press       \\
+7B Red Oak Way        \\
+Boscawen, NH, 03303
+\end{flushleft}
+
+Permission is granted to copy, distribute, and/or modify the text of this document under the terms of the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License, which is available at \url{https://creativecommons.org/licenses/by-nc-sa/3.0/}. This copyright only refers to the text of the book. Restrictions exist for figures rendered with BioRender and for permission to use any figure created with BioRender please contact the author for details. Permission to recreate a figure, capturing its essential concepts for example, is given through the CC BY-NC-SA 3.0 license, but use of an exact figure which has been created in BioRender is restricted by the terms of the authors BioRender Academic License. In such instances this will require the requester to secure their own BioRender Account and following the terms of that account.
+
+The original form of this book is \LaTeX\ source code.  Compiling this \LaTeX\ source has the effect of generating a device-independent representation of a textbook, which can be converted to other formats and printed.
+
+\vspace{0.2in}
+
+} % end small
+
+%---end--copyright--------------------------------------------------------
+
+
+\setcounter{tocdepth}{1}
+\setcounter{minitocdepth}{1} 
+
+%\begin{multicols}{2}
+    \dominitoc% Initialization
+    \adjustmtc[2]% chp number shift
+    \tableofcontents
+    \label{toc-contents}
+%\end{multicols}
+
+%	\listoffigures
+%	\listoftables
+	
+%\begin{multicols}{2}
+% \listoftheorems[ignoreall,show={theorem}]
+%\end{multicols}
+%\renewcommand{\listtheoremname}{List of \textit{Connection} Topics}
+%\begin{multicols}{2}
+%	\listoftheorems[ignoreall,show={definition}]
+%\end{multicols}
+
+	%\printglossaries
+	%bib2gls
+	% \printunsrtglossaries % print all types
+	%\printunsrtglossary[type={abbreviations},title=List of \textit{Connection} Topics,style=listgroup]
+	% \printunsrtglossary[type={abbreviations},title=List of Abbreviations,style=listhypergroup] % doesn't work
+%	\printunsrtglossary[type={symbols},title=List of Symbols,style=listgroup]
+	% \printunsrtglossary % main entry
+
+%%%%%%%%%%%%%%%Content%%%%%%%%%%%%%%%
+% \mainmatter % separat the number of toc and mainmatter
+
+%\frontmatter
+
+\input{./chapter/about.tex}
+
+%\mainmatter
+
+\input{./chapter/introduction.tex}
+
+\part{Muscle Fidelity \& Efficacy}
+\input{./chapter/fundamentals.tex}
+\input{./chapter/tension.tex}
+\input{./chapter/excitation.tex}
+\input{./chapter/regulation.tex}
+\input{./chapter/energetics.tex}
+
+
+\part{Muscle Support}
+\input{./chapter/ecf_microcirculation.tex}
+\input{./chapter/blood_flow.tex}
+\input{./chapter/blood_content.tex}
+\input{./chapter/blood_oxygen}
+\input{./chapter/alveolar_oxygen}
+\input{./chapter/blood_nutrients}
+
+\part{Muscle Integrity}
+\input{./chapter/myostasis.tex}
+\input{./chapter/repair.tex}
+
+\part{Integrative Exercises}
+\input{./chapter/fick_equation.tex}
+
+% \begin{appendices}
+% \input{./chapter/appendix_formula.tex}
+% \end{appendices}
+
+\backmatter
+
+%%%%%%%%%%%%%%% Reference %%%%%%%%%%%%%%%
+
+\printbibliography[heading=bibintoc]
+\printindex
+
+
+\end{document}
+
