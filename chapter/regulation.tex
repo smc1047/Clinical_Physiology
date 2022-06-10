@@ -83,15 +83,27 @@ Characteristic & Type 1 / SO & Type 2x / FOG & Type 2a / FG \\
 
 An $\alpha$-motor neuron, once excited, will release only one neurotransmitter, ACh at its axon terminal. ACh will only have one effect at the NMJ, creating excitatory micro-potentials on the motor end plate. However, in the Central Nervous System (such as the Spinal Cord) competing neurotransmitters can be released at synapses of the $\alpha$-motor neuron dendrites. The impact of these neurotransmitters can be excitatory or inhibitory. Since they occur after the synaspse they are called excitatory post synaptic potentiations (EPSPs) or inhibitory post synaptic potentiations (IPSPs). Whether, and how frequently, an $\alpha$-motor neuron sends an excitation to the muscle fibers it innervates is balanced by competition between the EPSPs and the IPSPs.
 
+
+
 \subsection{Motor Unit Twitch}
 
+Difference between motor unit twitch $T_{mu}$ and muscle fiber twitch $T_{mf}$
+
+
 \begin{equation}
-    T_{mu} = N \cdot T_{mf} = N \cdot A \cdot T_s
+    T_{mu} = N_ \cdot T_{mf} = N \cdot A \cdot T_s
 \end{equation}
 
-$T_s \simeq 22 N \cdot cm^{-2}$
+$N$ refers to the number of muscle fibers and in the above equation since there is only one motor unit being considered N can be taken as the the innervation ratio (IR)
 
-$T_s \simeq 17 N \cdot cm^{-2}$
+$A$ refers to the cross sectional area - an indication of how many sarcomeres are in parallel in the fiber
+
+$T_s$ refers to the tension created for each unit of cross sectional area
+
+$IR = \frac{N_{mf}}{N_{mu}}$ (Note, when there is one motor unit, $N = IR = N_{mf}$)
+
+Why is there more tension in a FF motor unit excitation and FG muscle fiber twitch? Three reasons: first, because there are more muscle fibers in a FF motor unit ($N_{mf}$). Second, because the muscle fibers in the FF motor unit have greater cross sectional area ($A$). Third, and to a much lesser extent, because the sarcomeres of a FG muscle fiber create more tension per twitch even when controlling for $A$ ($T_s$) \cite{bodine_maximal_1987}. Although this third reason remains controversial due to the small difference between the $T_s$ of FG and SO muscle fibers \cite{lieber_skeletal_2010}. Some sources equate the $T_s$ between the two fiber types, $T_s \simeq 20 N \cdot cm^{-2}$ \cite{feher_quantitative_2017}, whereas others report them separately with albeit different estimates, FG $T_s \simeq 22 N \cdot cm^{-2}$, and SO $T_s \simeq 15 N \cdot cm^{-2}$ \cite{lieber_skeletal_2010}.
+
 
 % Make more tables - make a table with the parameters of the equation including N, A, Fs for estimates of Fmu
 
@@ -102,6 +114,11 @@ $T_s \simeq 17 N \cdot cm^{-2}$
 
 Rate coding
 
+% Add the impact of multiple sclerosis on nerve conduction velocity (NCV) and the impact on NCV on regulation
+
+
+
+
 \subsection{Motor Unit Summation - Recruitment}
 
 \begin{figure}[!ht]
@@ -111,6 +128,7 @@ Rate coding
     \label{fig:Motor_unit_recruitment}
 \end{figure}
 
+% Synchronous vs. asynchronous activation of multiple motor units
 
 \section{Regulatory Feedback}
 
@@ -157,5 +175,28 @@ sEMG is a valuable form of biofeedback to indicate that a certain muscle has bee
 The motor unit number index (MUNIX) and the motor unit size index (MUSIX) are based on sEMG data interpreted through a mathematical model to estimate an index of the number and size of functional $\alpha$-motor neurons for a muscle \cite{nandedkar_motor_2004}. MUNIX is not an absolute count of motor units, and MUSIX is not an absolute size of the motor units. But they do provide an estimate that correlates with other measures and they have reasonable reliability. Considering the test only takes 3-5 minutes per muscle, is non-invasive and relatively comfortable (as compared to other approaches), they have gained popularity in clinical neurology and neurophysiology. MUNIX is considered an effective bio-marker for assessing disease progression and an alternative clinical trial outcome in amyotrophic lateral sclerosis (ALS). It has also been proposed for use in the evaluation of peripheral neuropathies, particularly in demyelinating neuropathies with conduction block. While there have been less studies, MUNIX is starting to be evaluated in a variety of central nervous system disorders (such as spinal cord injury, stroke, and cerebral palsy \cite{fatehi_utility_2018}. 
 
 A study of healthy individuals between 20 and 80 years of age demonstrated a reduction in MUNIX and MUSIX values with aging, particularly over the age of 60, indicating that they may be a valuable biomarker for research on the prevention and treatment of age related sarcopenia \cite{cao_reference_2020}. Sarcopenia is an age-related progressive loss of muscle mass and strength. It is a type of muscle atrophy primarily caused by the aging process and certainly confounded by physical inactivity and malnutrition. If a loss of motor units is inevitable with aging, then healthy aging would strive for lifestyles that promote increasing MUSIX despite an inevitable decline in MUNIX. A consequence of this shift (reduced MUNIX and increased MUSIX) would be a reduction in muscle tension regulation. Therefore, the choice of lifestyle would need to consider the motor control (balance, coordination) capabilities in such individuals.
+
+\subsection{Nerve Conduction Velocity (NCV)}
+
+Nerve conduction velocity (NCV) refers to the time it takes for an excitation to travel a certain distance. It can be measured clinical with electrodiagnostic testing that includes EMG. A stimulus is presented proximally at a peripheral nerve and the distal muscle excitation (via EMG) or axonal excitation is measured. NCV is related to the size of the neuron (diameter) because diameter influences resistance to current (flow of electrical impulses and therefore directly related to velocity). Diameter is inversely proportional to resistance, and resistance is inversely proportional to current, therefore diameter is directly proportional to current and velocity. The large diameter of the $\alpha$-motor neurons, combined with the myelin sheaths (See Figure \ref{fig:Motoneuron}, ensure a high NCV. 
+
+Table \ref{table:NCV} shows the estimated NCV for three nerve fiber types. The $\alpha$-motor neuron has the highest NCV. The variation in diameter in these motor neurons is partially explained by the motor unit types with FF motor units innervating FG fibers having the larger diameter ($\simeq 22 \mu m$) on the higher end for NCV ($\simeq 120 m \cdot s^{-1}$), and the S motor units with the small diameters ($\simeq 12 \mu m$)and the lower end of NCV ($\simeq 70 m \cdot s^{-1}$).
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{||c c c c ||} 
+ \hline
+Nerve Fiber & Diameter (\mu m) & NCV ($m \cdot s^{-1}$) & Function \\ 
+ \hline\hline
+ $\alpha$-motor & 12-22 & 70-120 & motor \\ 
+ $\delta$-sensory & 1-5 & 12-30 & sharp pain \\
+ C & 0.5-1.2 & 0.2-2 & dull pain \\ [1ex] 
+ \hline
+\end{tabular}
+\caption{NCV for different nerve fiber types \footnotesize{Note: C fibers are unmyelinated, whereas $\alpha$-motor and $\delta$-sensory fibers are myelinated. Therefore, C fibers have a larger drop in NCV estimated just from diameter.}}
+\label{table:NCV}
+\end{table}
+
+The tight regulation of active tension for coordinated movements requires for fidelity in the signals coming from the central nervous system.\footnotemark\footnotetext{Fidelity in this context means that intended signals are accurately sent where and when they are requested.} If the myelin sheath of an $\alpha$-motor neuron is damaged the NCV is reduced. If the NCV is reduced then the ability to activate muscles with high fidelity signals is impaired resulting in delays in the generation of active tension, limiting the ability to increase active tension when needed. These changes occur for two reasons, first, limitations in frequency summation, and second, limitations in motor unit summation. This is precisely what happens in peripheral demyelinating diseases such as Guillain-Barre syndrome, Chronic Inflammatory Demyelinating Polyradiculoneuropathy, Anti-Myelin Associated Glycoprotein Neuropathy, and demyelinating disease known as Multiple Sclerosis also impairs signal fidelity, however, it is a central nervous system condition. Therefore, the loss of signal fidelity does not directly alter the peripheral NCV, it impairs the central NCV which interrupts signals that excite the motor unit dendrites in the spinal cord which tends to present as a more complicated, nuanced and variable clinical presentation (in terms of the impact it can have on motor function such as coordination).
 
 \printbibliography[heading=subbibintoc]
