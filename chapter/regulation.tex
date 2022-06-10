@@ -3,30 +3,25 @@
 Updated on \today
 \minitoc
 
-Understanding the mechanisms of muscle activation and excitation enables an understanding regulation. All of these terms are referring to active tension - the activation of active tension, the excitation that results in activation of active tension, and the regulation of the excitations that result in active tension. A single excitation produces enough activation to create a twitch, making a twitch the fundamental unit of active tension. Regulation of active tension involves the mechanisms that are utilized to allow a muscle fiber, and the muscle, to vary its active tension from (essentially) zero to its maximal value. For voluntary movement the regulation of active tension must be accurate and precise. This requires activation to start and stop when needed (events involving EAC and Ca+ release and uptake by the SR). And it requires excitation to start and stop when needed (events involving rapid depolarization and repolarization of excitable membranes). Regulation of active tension includes the processes used by the central nervous system to vary its active tension from the lowest value (resting tone) to its maximal value (maximal voluntary contraction (MVC)). 
-
-
-
-
-Excitation occurs for an entire The regulation of active tension is managed by the central nervous system. This chapter introduces the mechanisms utilized by the CNS to fulfill this role. The CNS has one approach for muscle fiber tension regulation - it can manipulate the number of twitches per second (frequency summation); and one approach for whole muscle tension regulation - it can manipulate the number of muscle fibers twitching (motor unit summation). 
+This chapter introduces the mechanisms utilized by the CNS to regulate active tension. To regulate active tension means to vary its force from its lowest value (resting tone) to its maximal value (maximal voluntary contraction (MVC)). Active tension is developed at the level of the sarcomere, excitation at the level of the muscle fiber, regulation occurs at the level of motor units. A motor unit includes an $\alpha$-motor neuron and all of the muscle fibers it innervates. The CNS has two strategies to regulate active tension. One strategy is to manipulate the number of twitches per second (frequency summation or rate coding); and the second strategy is to manipulate the number of motor units twitching (motor unit summation or motor unit recruitment). Between these two approaches there is a nearly continuous variation in active tension possible, with some muscles (fine motor) having a greater capacity for continuous variation than others (gross motor).
 
 \vspace{5mm}
 
 \textbf{Objectives include:}
 \begin{enumerate}
     \item Explain motor unit structure–function relationships.
-    \item Explain muscle fiber differentiation structure-function relationships.
+    \item Explain muscle fiber differentiation (types) structure-function relationships.
     \item Explain motor unit excitation, twitch and tetany.
     \item Explain motor unit summation and the order of recruitment.
-    \item Explain the effect of multiple sclerosis on motor unit excitation.
     \item Explain how the muscle spindles and the golgi tendon organs influence motor unit excitation.
     \item Explain the physiological basis of the electromyogram (EMG) and limitations of EMG interpretation.
     \item Explain the effect of amyotrophic lateral sclerosis and aging on motor units.
+    \item Explain the effect of peripheral nerve demyelination on muscle regulation.
 \end{enumerate}\
 
 \section{Motor Units}
 
-A motor unit is an $\alpha$-motor neuron and all of muscle fibers that its terminal axon branches form a neuromuscular junction at a motor end plate. Each muscle fiber has one motor end plate, and therefore one neuromuscular junction. However, each $\alpha$-motor neuron has many terminal axon branches. 
+A motor unit is an $\alpha$-motor neuron and all of muscle fibers that its terminal axon branches form a neuromuscular junction at a motor end plate. Each muscle fiber has one motor end plate, and therefore one neuromuscular junction. However, each $\alpha$-motor neuron has many terminal axon branches. The muscle fibers of a single motor unit are randomly dispersed throughout the muscle epimysium. Meaning the muscle fibers of a motor unit contribute to the tension developed in several different fascicles. This arrangement ensures that when only a few motor units are excited there are muscle fibers throughout the entire muscle generating tension at the tendon attachments and not an asymmetrical pull from one fascicle or isolated location within the epimysium.
 
 \begin{figure}[!ht]
     \centering
@@ -35,8 +30,80 @@ A motor unit is an $\alpha$-motor neuron and all of muscle fibers that its termi
     \label{fig:motor_unit}
 \end{figure}
 
+\subsection{Innervation Ratio}
+Motor unit innervation ratio (IR) refers to the number of muscle fibers per motor unit and is usually given as the average number of muscle fibers per motor unit.
 
+\begin{equation}
+    IR = \frac{N_{mf}}{N_{mu}}
+\end{equation}
 
+The IR varies between muscles and differentiates muscles that are well equipped for fine and gross motor control (See Table \ref{table:Innervation_Ratios}).
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{||c c c c||} 
+ \hline
+ Muscle & $\alpha$-motor neurons & Muscle Fibers ($\times 10^3$) & Innervation Ratio \\ [0.5ex] 
+ \hline\hline
+ Biceps  & 774 & 580 & 749 \\ 
+ Brachialis & 330 & 130 & 393 \\
+ Lumbricals &  98 & 10.3 & 105 \\ 
+ Gastrocnemius & 580 & 1000 & 1724 \\[1ex] 
+ \hline
+\end{tabular}
+\caption{Variability of Innervation Ratio in Human Muscles (\footnotesize{From \cite{buchthal_motor_1980}})}
+\label{table:Innervation_Ratios}
+\end{table}
+
+Innervation ratios for whole muscles are explanatory for the concept of fine motor and gross motor control. Considering tension is developed by muscle fibers, and hundreds to thousands of muscle fibers are recruited with each new motor unit recruitment, muscles with lower IRs have greater regulation (control) over the amount of tension they produce. They more nearly approach continuous increments in tension with each new motor unit recruited. Of the four muscles in Table \ref{table:Innervation_Ratios}, the lumbricals (muscle in the hand) has the greatest fine motor control. While the gastrocnemius is responsible for the greatest need for high tension (force) output (gross motor control).
+
+\subsection{Motor Unit \& Muscle Fiber Types}
+
+While IRs for whole muscle are interesting for motor control they tend to ignore the fact that there is systematic variation in the number of muscle fibers per motor unit within a muscle. It is clear that there are different types of motor units, and that the types include differences in both the $\alpha$-motor neuron and the muscle fibers. These differences are structural and functional. It is also clear that motor unit types exist on a spectrum, but despite the spectrum experts have identified and agree on a classification system that includes three types of human motor units \cite{lieber_skeletal_2010}.
+
+\begin{itemize}
+    \item Fast Fatigable (FF) Motor Units with Type 2a or Fast Glycolytic (FG) Muscle Fibers
+    \item Fast Resistant (FR) Motor Units with Type 2x or Fast Oxidatitive (FOG) Muscle Fibers
+    \item Slow (S) Motor Units with Type 1 or Slow Oxidative (SO) Muscle Fibers
+\end{itemize}
+
+The above classification names are all utilized, however the Type 1, 2x and 2a are probably (unfortantely) the most common. The other classifications are more informative about the functional characteristics of the motor units and muscle fibers they innervate.
+
+\subsubsection{Fast \& Slow}
+
+The terms fast and slow refer to relative differences in four characteristics, two for the $\alpha$-motor neuron and two for the muscle fibers. 
+
+\paragraph{Fast \& Slow $\alpha$-Motor Neurons}
+For the motor unit $\alpha$-motor neuron they refer to how quickly excitations can be sent and thus how frequently they can be excited (the faster an excitation propagates down an axon the sooner it is ready for another excitation). So a fast neuron has a higher nerve conduction velocity (NCV) and a higher maximum excitation frequency (Hz) than a slow neuron.
+
+NCV is related to the size of the neuron (diameter) because diameter influences resistance to current (flow of electrical impulses and therefore directly related to velocity). Diameter is inversely proportional to resistance, and resistance is inversely proportional to current, therefore diameter is directly proportional to current and velocity. The large diameter of the $\alpha$-motor neurons, combined with the myelin sheaths (See Figure \ref{fig:Motoneuron}, contribute to its relatively high NCV. 
+
+Table \ref{table:NCV} shows the estimated NCV for three nerve fiber types. The $\alpha$-motor neuron has the highest NCV. The variation in diameter in these motor neurons is explained by the motor unit types with the fast (FF) motor units innervating the FG fibers having the larger diameter ($\simeq 22 \mu m$) on the higher end for NCV ($\simeq 120 m \cdot s^{-1}$), and the S motor units with the small diameters ($\simeq 12 \mu m$)and the lower end of NCV ($\simeq 70 m \cdot s^{-1}$) (and FR motor units innervating FOG somewhere in the middle). 
+
+It's important to keep in mind that for motor unit neurons fast and slow are relative to one another. As is clear in Table \ref{table:Innervation_Ratios} they are both much faster than the other neurons listed.
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{||c c c c ||} 
+ \hline
+Nerve Fiber & Diameter (\mu m) & NCV ($m \cdot s^{-1}$) & Function \\ 
+ \hline\hline
+ $\alpha$-motor & 12-22 & 70-120 & motor \\ 
+ $\delta$-sensory & 1-5 & 12-30 & sharp pain \\
+ C & 0.5-1.2 & 0.2-2 & dull pain \\ [1ex] 
+ \hline
+\end{tabular}
+\caption{NCV for different nerve fiber types. Note: C fibers are unmyelinated, whereas $\alpha$-motor and $\delta$-sensory fibers are myelinated. Therefore, C fibers have a larger drop in NCV estimated just from diameter. \footnotesize{Data from \cite{feher_quantitative_2017}}}
+\label{table:NCV}
+\end{table}
+
+Along with a larger diameter the fast motor unit neurons innervate a larger number of muscle fibers. 
+
+% Consider a table or at least some data on this fact.... as an example
+
+For the motor unit muscle fiber they refer to how
+
+% Note - struggling to find a way to introduce motor unit types .... seems that I must first define the characteristics of the measurements....
 
 \subsection{Motor Unit Types}
 
@@ -86,6 +153,8 @@ An $\alpha$-motor neuron, once excited, will release only one neurotransmitter, 
 
 
 \subsection{Motor Unit Twitch}
+
+A single excitation of a muscle fiber produces enough activation to create a twitch, making a twitch the fundamental unit of active tension. In this chapter the concept of a muscle fiber twitch is scaled up to a motor unit twitch. While a muscle fiber twitch is the fundamental unit of active tension, a motor unit twitch is the fundamental unit of movement.\footnotemark\footnotetext{Just a note that by "unit" we don't mean unit as in a unit of measurement. Other words for how we are using the word unit may be "element" or "atom" or "particle".}
 
 Difference between motor unit twitch $T_{mu}$ and muscle fiber twitch $T_{mf}$
 
@@ -162,11 +231,11 @@ Each time a muscle fiber is activated it is caused by an action potential from t
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=1\linewidth]{./figure/EMG_ARV.png}
-    \caption{Raw (upper) and ARV EMG Signals \footnotesize{Data collected using Biopaq acquisition hardware and Acknowledge software in the author's lab (SC)}}
+    \caption{Raw (upper) and ARV (lower) EMG Signals \footnotesize{Data collected using Biopaq acquisition hardware and Acknowledge software in the author's lab (SC)}}
     \label{fig:EMG_ARV}
 \end{figure}
 
-\paragraph{Biofeedack}
+\paragraph{Biofeedback}
 
 sEMG is a valuable form of biofeedback to indicate that a certain muscle has been activated. Commercially available devices provide visual or auditory signals so a patient can learn to activate a muscle. Common applications of the EMG for biofeedback is activation in the vastus medialis after anterior cruciate ligament surgery, or the lower trapezius during shoulder flexion or abduction.
 
@@ -178,24 +247,7 @@ A study of healthy individuals between 20 and 80 years of age demonstrated a red
 
 \subsection{Nerve Conduction Velocity (NCV)}
 
-Nerve conduction velocity (NCV) refers to the time it takes for an excitation to travel a certain distance. It can be measured clinical with electrodiagnostic testing that includes EMG. A stimulus is presented proximally at a peripheral nerve and the distal muscle excitation (via EMG) or axonal excitation is measured. NCV is related to the size of the neuron (diameter) because diameter influences resistance to current (flow of electrical impulses and therefore directly related to velocity). Diameter is inversely proportional to resistance, and resistance is inversely proportional to current, therefore diameter is directly proportional to current and velocity. The large diameter of the $\alpha$-motor neurons, combined with the myelin sheaths (See Figure \ref{fig:Motoneuron}, ensure a high NCV. 
-
-Table \ref{table:NCV} shows the estimated NCV for three nerve fiber types. The $\alpha$-motor neuron has the highest NCV. The variation in diameter in these motor neurons is partially explained by the motor unit types with FF motor units innervating FG fibers having the larger diameter ($\simeq 22 \mu m$) on the higher end for NCV ($\simeq 120 m \cdot s^{-1}$), and the S motor units with the small diameters ($\simeq 12 \mu m$)and the lower end of NCV ($\simeq 70 m \cdot s^{-1}$).
-
-\begin{table}[h!]
-\centering
-\begin{tabular}{||c c c c ||} 
- \hline
-Nerve Fiber & Diameter (\mu m) & NCV ($m \cdot s^{-1}$) & Function \\ 
- \hline\hline
- $\alpha$-motor & 12-22 & 70-120 & motor \\ 
- $\delta$-sensory & 1-5 & 12-30 & sharp pain \\
- C & 0.5-1.2 & 0.2-2 & dull pain \\ [1ex] 
- \hline
-\end{tabular}
-\caption{NCV for different nerve fiber types \footnotesize{Note: C fibers are unmyelinated, whereas $\alpha$-motor and $\delta$-sensory fibers are myelinated. Therefore, C fibers have a larger drop in NCV estimated just from diameter.}}
-\label{table:NCV}
-\end{table}
+Nerve conduction velocity (NCV) refers to the time it takes for an excitation to travel a certain distance. It can be measured clinical with electrodiagnostic testing that includes EMG. A stimulus is presented proximally at a peripheral nerve and the distal muscle excitation (via EMG) or axonal excitation is measured. NCV
 
 The tight regulation of active tension for coordinated movements requires for fidelity in the signals coming from the central nervous system.\footnotemark\footnotetext{Fidelity in this context means that intended signals are accurately sent where and when they are requested.} If the myelin sheath of an $\alpha$-motor neuron is damaged the NCV is reduced. If the NCV is reduced then the ability to activate muscles with high fidelity signals is impaired resulting in delays in the generation of active tension, limiting the ability to increase active tension when needed. These changes occur for two reasons, first, limitations in frequency summation, and second, limitations in motor unit summation. This is precisely what happens in peripheral demyelinating diseases such as Guillain-Barre syndrome, Chronic Inflammatory Demyelinating Polyradiculoneuropathy, Anti-Myelin Associated Glycoprotein Neuropathy, and demyelinating disease known as Multiple Sclerosis also impairs signal fidelity, however, it is a central nervous system condition. Therefore, the loss of signal fidelity does not directly alter the peripheral NCV, it impairs the central NCV which interrupts signals that excite the motor unit dendrites in the spinal cord which tends to present as a more complicated, nuanced and variable clinical presentation (in terms of the impact it can have on motor function such as coordination).
 
