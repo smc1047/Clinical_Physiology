@@ -45,7 +45,7 @@ The IR varies between muscles and differentiates muscles that are well equipped 
  \hline
  Muscle & $\alpha$-motor neurons & Muscle Fibers ($\times 10^3$) & Innervation Ratio \\ [0.5ex] 
  \hline\hline
- Lateral Rectus (eye) & 30* &.15* & 5
+ Lateral Rectus (eye) & 30* &.15* & 5 \\
  Biceps  & 774 & 580 & 749 \\ 
  Brachialis & 330 & 130 & 393 \\
  Lumbricals (hand) &  98 & 10.3 & 105 \\ 
@@ -162,8 +162,15 @@ The three motor unit types display different twitch tension, twitch time and fat
 \paragraph{Twitch Time}
 Twitch time refers to the total time of the twitch with includes its upslope, time at peak or plateau, and time for downslope. A FF motor unit has a fast rise, short lived peak, and fast downslope. An S motor unit has a slower rise, longer plateau, and slower downslope. These characteristic curves (See Figure \ref{fig:mu_twitch}) contribute to the excitation frequency required for achieving tetany in the different motor unit types. An S motor unit can achieve tetany with an excitation frequency of 20-30 Hz since the twitches last longer and fuse (summate) more easily. A FF motor unit requires a higher frequency (80-100 Hz) to achieve tetany. 
 
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=1\linewidth]{./figure/mu_twitch.png}
+    \caption{Motor Unit Twitch Characteristics \footnotesize{Created in BioRender.com, Modified from \cite{jones_skeletal_2006}}}
+    \label{fig:mu_twitch}
+\end{figure}
+
 \paragraph{Twitch Tension}
-Twitch tension refers to the measurable force of a the tension developed during a twitch. Since tetany includes a summation of the twitches, a higher twitch tension results in a higher tetanic tension as well. Twitch tension is highest in the FF motor units for three reasons. First, these motor units have the highest number of muscle fibers (N, which is directly related to innervation ratio (IR)). Second, these motor units have, overall, a higher cross sectional area. Part of the larger cross area, but not all of it, is due to the higher number of fibers. The IR of a FF motor unit is approximately 2x higher than an S motor unit. However, the cross sectional area (A) is approximately 2.3x higher than an S motor unit \cite{bodine_maximal_1987, buchthal_motor_1980}. Third, these motor units have a slightly higher specific tension ($T_s$), estimates are that the $T_s$ of FF motor units when tetanized is approximately $22 \ N \cdot cm^{-2}$ compared to S motor units approximately $17 \ N \cdot cm^{-2}$. Based on these estimates the $T_s$ of a FF motor unit is approximately 1.3x that of a S fiber. 
+Twitch tension refers to the measurable force of a the tension developed during a twitch. Since tetany includes a summation of the twitches, a higher twitch tension results in a higher tetanic tension as well. Twitch tension is highest in the FF motor units for three reasons. First, these motor units have the highest number of muscle fibers (N, which is directly related to innervation ratio (IR)). Second, these motor units have, overall, a higher cross sectional area. Part of the larger cross area, but not all of it, is due to the higher number of fibers. The IR of a FF motor unit is approximately 2x higher than an S motor unit. However, the cross sectional area (A) is approximately 2.3x higher than an S motor unit \cite{bodine_maximal_1987, buchthal_motor_1980}. Third, these motor units have a slightly higher specific tension ($T_s$). Estimates are that the $T_s$ of FF motor units when tetanized is approximately $22 \ N \cdot cm^{-2}$ compared to S motor units approximately $17 \ N \cdot cm^{-2}$. Based on these estimates the $T_s$ of a FF motor unit is approximately 1.3x that of a S fiber. 
 
 \paragraph{}
 
@@ -227,7 +234,7 @@ The primary way that muscle tension is regulated is through motor unit summation
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=1\linewidth]{./figure/Motor_unit_recruitment.png}
-    \caption{Order of Recruitment \footnotesize{\href{https://commons.wikimedia.org/wiki/File:Motor_unit_recruitment.png}{Wikimedia Commons, CC BY 4.0})}}
+    \caption{Motor Unit Order of Recruitment \footnotesize{\href{https://commons.wikimedia.org/wiki/File:Motor_unit_recruitment.png}{Wikimedia Commons, CC BY 4.0})}}
     \label{fig:Motor_unit_recruitment}
 \end{figure}
 
@@ -238,6 +245,13 @@ The size principle of motor unit recruitment is based on the experimental observ
 \paragraph{Tension Developed during Motor Unit Summation - Recruitment}
 
 Figure \ref{fig:n_motor_unit_recruitment} is a simulation based on the previously derived estimate that a FF motor unit generates 6x more tension of a S motor unit. This estimate accounts for the higher number of fibers, the greater cross sectional area of the fibers, and the greater specific tension of the fibers in an FF motor unit. Additional assumptions for this simulation was that the muscle has 100 motor units generating up to 100\% of of its maximal active tension; and that there are 20 S motor units, 20 S to FR transition motor units; 20 FR motor units; 20 FR to FF transition motor units; and 20 FF motor units. The S motor units each contribute 1 arbitrary unit (au) of tension, the FR motor units each contribute 3 au of tension, and the FF motor units each contribute 6 au of tension. The transition motor units are scaled linearly from 1 to 3, and from 3 to 6 in their respective transition zones. What is clear is that based on the order of recruitment (S to FF) there is an upward slope of tension with each new motor unit recruited.
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=1\linewidth]{./figure/n_motor_unit_recruitment.png}
+    \caption{Simulation of Tension Developed during Motor Unit Summation - Recruitment (See text for simulation assumptions) \footnotesize{Created with Excel and BioRender.com})}
+    \label{fig:n_motor_unit_recruitment}
+\end{figure}
 
 \paragraph{}
 
@@ -270,7 +284,7 @@ Golgi tendon organs (GTOs) are on the mostly tendon side of the transition space
 
 Each time a muscle fiber is activated it is caused by an action potential from the nerve to the motor end plate, and along the sarcolemma of all the fibers that are innervated by that $\alpha$-motor neuron. Therefore, each muscle fiber activation is associated with an electrical signal. An EMG electrode near the fiber can record this electrical activity. The electrode can either be a small needle that acts as an antenna to record local electrical activity or a surface electrode (sEMG). If using a needle, the raw EMG signal can be used to accurately determine when a particular muscle is active (regardless of depth or size of the muscle). sEMG can be used to determine when a particular muscle is active when the muscle of interest is superficial and large enough to avoid cross talk at the sEMG electrode. 
 
-\paragraph{EMG quantification} It is difficult to quantify the activity of a muscle from a raw EMG signal. The EMG contains electrical signals from every muscle fiber in the vicinity of the EMG electrode which creates a very noisy signal (See Figure \ref{fig:EMG_ARV}. From the raw signal the Average Rectified Voltage (ARV) EMG can be computed. ARV is a time-windowed mean of the absolute value of the signal (turns all voltages into positive values). ARV is useful for further analysis such as recording the excitation patterns of a muscles that may include changes in excitation or as the first step towards more advanced analyses \cite{merletti_surface_2016}. The relationship between EMG activity and muscle tension is most valuable during isometric activation because the association between activation and tension changes with changes in length (length-tension relationship), and with different velocities (force-velocity relationship).
+\paragraph{EMG quantification} It is difficult to quantify the activity of a muscle from a raw EMG signal. The EMG contains electrical signals from every muscle fiber in the vicinity of the EMG electrode which creates a very noisy signal (See Figure \ref{fig:EMG_ARV}). From the raw signal the Average Rectified Voltage (ARV) EMG can be computed. ARV is a time-windowed mean of the absolute value of the signal (turns all voltages into positive values). ARV is useful for further analysis such as recording the excitation patterns of a muscles that may include changes in excitation or as the first step towards more advanced analyses \cite{merletti_surface_2016}. The relationship between EMG activity and muscle tension is most valuable during isometric activation because the association between activation and tension changes with changes in length (length-tension relationship), and with different velocities (force-velocity relationship).
 
 \begin{figure}[!ht]
     \centering
@@ -287,7 +301,7 @@ sEMG is a valuable form of biofeedback to indicate that a certain muscle has bee
 
 The motor unit number index (MUNIX) and the motor unit size index (MUSIX) are based on sEMG data interpreted through a mathematical model to estimate an index of the number and size of functional $\alpha$-motor neurons for a muscle \cite{nandedkar_motor_2004}. MUNIX is not an absolute count of motor units, and MUSIX is not an absolute size of the motor units. But they do provide an estimate that correlates with other measures and they have reasonable reliability. Considering the test only takes 3-5 minutes per muscle, is non-invasive and relatively comfortable (as compared to other approaches), they have gained popularity in clinical neurology and neurophysiology. MUNIX is considered an effective bio-marker for assessing disease progression and an alternative clinical trial outcome in amyotrophic lateral sclerosis (ALS). It has also been proposed for use in the evaluation of peripheral neuropathies, particularly in demyelinating neuropathies with conduction block. While there have been less studies, MUNIX is starting to be evaluated in a variety of central nervous system disorders (such as spinal cord injury, stroke, and cerebral palsy \cite{fatehi_utility_2018}. 
 
-A study of healthy individuals between 20 and 80 years of age demonstrated a reduction in MUNIX and MUSIX values with aging, particularly over the age of 60, indicating that they may be a valuable biomarker for research on the prevention and treatment of age related sarcopenia \cite{cao_reference_2020}. Sarcopenia is an age-related progressive loss of muscle mass and strength. It is a type of muscle atrophy primarily caused by the aging process and certainly confounded by physical inactivity and malnutrition. If a loss of motor units is inevitable with aging, then healthy aging would strive for lifestyles that promote increasing MUSIX despite an inevitable decline in MUNIX. A consequence of this shift (reduced MUNIX and increased MUSIX) would be a reduction in muscle tension regulation. Therefore, the choice of lifestyle would need to consider the motor control (balance, coordination) capabilities in such individuals.
+A study of healthy individuals between 20 and 80 years of age demonstrated a reduction in MUNIX and MUSIX values with aging, particularly over the age of 60, indicating that they may be a valuable biomarker for research on the prevention and treatment of age related sarcopenia \cite{cao_reference_2020}. Sarcopenia is an age-related progressive loss of muscle mass and strength \cite{dao_sarcopenia_2020}. It is a type of muscle atrophy primarily caused by the aging process and certainly confounded by physical inactivity and malnutrition. Sarcopenia tends to result in a larger loss of FF motor units and FG (Type 2a) muscle fibers. If a loss of motor units is inevitable with aging, then healthy aging would strive for lifestyles that promote increasing MUSIX despite an inevitable decline in MUNIX. A consequence of this shift (reduced MUNIX and increased MUSIX) would be a reduction in muscle tension regulation. Therefore, the choice of lifestyle would need to consider the motor control (balance, coordination) capabilities in such individuals.
 
 \subsection{Nerve Conduction Velocity (NCV)}
 
@@ -298,6 +312,6 @@ The tight regulation of active tension for coordinated movements requires for fi
 
 \section{Summary \& Next Step}
 
-
+Motor units connect the central nervous system to muscle fibers. Varying the frequency of excitation and the number of motor units excited allows the CNS to vary the active tension provided by a muscle. Tight regulation of this active tension is required for motor control. There are three accepted classifications of motor units and they correspond to three accepted accepted classifications of muscle fibers. The structural characteristics of these motor units and muscle fibers are related to distinct functional characteristics in twitch and tetany. Recruitment of motor units is the primary mechanism for varying tension with variations in the frequency of excitation providing a small range of tension variation that allows for fine tuning the nearly continuous range of possible tensions. Muscle spindles and golgi tendon organs provide the CNS with feedback about muscle tension, stretch and length. EMG can capture valuable information about motor unit and muscle excitation as well as the determination of NCV. The next chapter expands on the metabolic characteristics of muscle fibers and the implications muscle energetics has on function as well as the demands that muscle energetics places on other body systems.
 
 \printbibliography[heading=subbibintoc]
