@@ -2,12 +2,17 @@
 \chapter{Blood Flow support of Micro-circulation}\label{chp:blood_flow}
 Updated on \today
 \minitoc
-This chapter covers the blood flow support of micro-circulation. 
+This chapter covers the blood flow support of micro-circulation. Blood flow includes the heart as a muscular pump (cardiac function) and the two vascular circuits that the pump circulates blood through (systemic and pulmonary circulation). All together these components can be referred to as the cardiovascular system (anatomical perspective) or circulation (physiological perspective). 
 
 \vspace{5mm}
 
 \textbf{Objectives include:}
 \begin{enumerate}
+    \item Describe and discuss the anatomy and function of the circulation.
+    \item Apply Poiseuille Law (equation) to describe the function and possible dysfunction of circulation.
+    \item Demonstrate the ability to apply the basic concepts of physiology to the analysis of patient/client problems related to the muscular and  circulatory systems.
+    \item Relate the the International Classification of Function (ICF) to describe how physiological systems emerge as function and consider the whole system impact of dysfunction (impairments) (7D21)
+    \item Show how to perform cardiovascular tests and measures including: Heart rate and Blood pressure in an isolated practice condition.
     \item
     \item
     \item
@@ -18,22 +23,79 @@ This chapter covers the blood flow support of micro-circulation.
 
 \section{Blood Flow Overview}
 
-The heart and the roots of the great vessels (Fig. 3.1) occupy the pericardium, which is located in the mediastinum. The sternum, the costal cartilages, and the medial ends of the third to fifth ribs on the left side of the thorax create the anterior border of the mediastinum. It is bordered inferiorly by the diaphragm, posteriorly by the vertebral column and ribs, and laterally by the pleural cavity (which contains the lungs). Specific cardiac structures and vessels and their respective functions are outlined in Tables 3.1 and 3.2.
+Systole
+Diastole
 
-Note: The mediastinum and the heart can be displaced from their normal positions with changes in the lungs secondary to various disorders. For example, a tension pneumothorax shifts the mediastinum away from the side of dysfunction (see Chapter 4 for a further description of pneumothorax).
-The cardiovascular system must adjust the amount of nutrient- and oxygen-rich blood pumped out of the heart (cardiac output [CO]) to meet the spectrum of daily energy (metabolic) demands of the body.
-The heart’s ability to pump blood depends on the following characteristics:
+\subsection{Anatomical Factors}
 
+The heart and the roots of the great vessels occupy the pericardium, which is located in the mediastinum. The sternum, the costal cartilages, and the medial ends of the third to fifth ribs on the left side of the thorax create the anterior border of the mediastinum. It is bordered inferiorly by the diaphragm, posteriorly by the vertebral column and ribs, and laterally by the pleural cavity (which contains the lungs). Specific cardiac structures and vessels and their respective functions are outlined in 
 
-•	Automaticity: The ability to initiate its own electrical impulse
-•	Excitability: The ability to respond to electrical stimulus
-•	Conductivity: The ability to transmit electrical impulse from cell to cell within the heart
-•	Contractility: The ability to stretch as a single unit and then passively recoil while actively contracting
-•	Rhythmicity: The ability to repeat the cycle in synchrony with regularity
+The mediastinum and the heart can be displaced from their normal positions with changes in the lungs secondary to various disorders. A tension pneumothorax shifts the mediastinum away from the side of dysfunction.
+Circulation adjusts the amount of blood pumped out of the heart (cardiac output [$\dot{Q \ Liters/minute}$]) to meet the range of energetic transformation needs.
+
+% Add the valves which direct flow
+
 
 \section{Cardiac Muscle}
 
+The function of the heart as a muscular pump depends on several characteristics of cardiac muscle:
+
+\begin{itemize}
+    \item Automaticity: The ability to initiate its own excitation
+    \item Excitability: The ability to respond to excitation with activation
+    \item Conductivity: The ability to transmit excitations from cell to cell within the heart
+    \item Contractility: The ability to generate a contractile (shortening) active tension when activated and passive tension when stretched
+    \item Rhythmicity: The ability to repeat the excitation-activation cycle in synchrony with regularity
+\end{itemize}
+
+
 \subsection{Tension}
+
+It is reasonable to use the term contraction when describing activation and active tension for the cardiac muscle because contraction (shortening) is what occurs (there is no eccentric or isometric activation of cardiac muscle). A major difference between cardiac and skeletal muscle is that cardiac muscle does not have a tendon attachment. Cardiac muscle attaches to itself to create a chamber that has a volume. When cardiac muscle contracts, it makes the chamber smaller (less volume). In skeletal muscle the length of fibers directly translates into the length of the entire muscle and this relationship has a functional interpretation. In cardiac muscle the length of fibers directly translates into the volume chambers. It is the volume of these chambers that has functional interpretation. 
+
+The heart has four chambers that function as four pumps (right and left atria; right and left ventricles). However from a muscular perspective there are two chambers, each separated into a right and a left side with a relatively thin muscular barrier between them. This is quite noticeable in conditions that result in abnormal timing of the right and left ventricle excitation. If the ventricles are not excited at the same time, even by a milliseconds, the overall pump effectiveness of both ventricles is impaired.
+
+Active tension is generated in cardiac muscle with the same sliding filament model of skeletal muscle described in Chapter \ref{chp:tension}. Active tension generates tension that shortens cardiac muscle fibers and makes the cardiac chambers smaller. Passive tension is generated by titin (primarily) and other connective tissue structures. Passive tension also attempts to shorten cardiac muscle fibers when they are stretched (lengthened fibers when the chamber has a larger volume). 
+
+Cardiac muscle \textit{in situ} has a volume-tension curve that is synonomous with the length-tension curve of skeletal muscle. The volume-tension curve is similar looking to the length-tension curve. The primary difference between the volume-tension and length-tension curves is that the volume-tension passive component is shifted to the left and is steeper. Passive tension starts to develop prior to achieving resting volume and it develops more rapidly. The functional implication is that even under normal resting conditions passive tension contributes to cardiac contraction. And with larger volumes of blood in the chambers the contribution of passive tension rises exponentially.
+
+The passive component of the volume-tension curve is related to cardiac compliance. As described in Chapter \ref{chp:ecf_microcirculation} there is a relationship between volume, compliance and pressure. The cardiac muscles vary the volume of chambers while having a particular compliance (that varies with the passive and active tension) for the purpose of generating pressure. This is a fundamental difference between cardiac and skeletal muscle tension. Skeletal muscle tension changes length based directly on tension for the purposes of generating torque. Cardiac muscle tension changes length for the purpose of changing volume and compliance, for the purpose of changing pressure. It is the pressure generated in the cardiac chamber that results in blood flow.
+
+Understanding cardiac function requires a familiarity with the equations relating compliance, volume and pressure introduced in Chapter \ref{chp:ecf_microcirculation}, repeated here:
+
+% Remove these when the book is one complete book and not a bunch of separate chapters
+
+\begin{equation}
+    C = \frac{\Delta V}{\Delta P}
+    \label{Cardiac_Compliance}
+\end{equation}
+\begin{equation}
+    \frac{1}{\Delta P} = \frac{C}{\Delta V}
+    \label{Cardiac_InversePressure}
+\end{equation}
+\begin{equation}
+    \Delta P = \frac{\Delta V}{C}
+    \label{Cardiac_Pressure}
+\end{equation}
+
+In Equation \ref{Cardiac_Pressure} the dependency of pressure on volume an compliance is clear. Since blood flow (circulation) is a cyclic variation in pressure gradients through the cardiac pump (and vascular vessels), the entirety of cyclic blood flow through the heart can be considered from the perspective of cyclic changes to volume and compliance. 
+
+\subsubsection{Preload}
+Preload is the term given for the pressure in a chamber when the cardiac muscle is not activated. The pressure is related to the volume and the compliance. The compliance is at its highest when the myocardium is empty and not activated. As the chamber fills with volume, passive tension starts to develop which gradually reduces compliance while increasing volume. Under normal circumstances this increase in pressure (higher volume and lower compliance) is not great enough to fully impede blood flow into the chamber. The passive tension developed during preload is subsequently utilized to assist active tension to develop the tension necessary to change the volume and compliance of the chamber for the purpose of increasing pressure to facilitate blood flow out of the chamber. The increased pressure, alone, simply directs blood flow out of the chamber from an area of high to low pressure. The direction of actual blood flow through the heart is dependent on properly functioning valves that limit flow "backwards" and allow blood flow "forwards" based on cardiac anatomy.
+
+The preload is related most directly to what is referred to as end-diastolic pressure (EDP), which is related directly to end-diastolic volume (assuming the compliance is normal and relatively low during diastole).
+
+The volume that results in preload is from blood flow. Where the blood flow is coming for preload depends on the chamber. The right artrium preload comes from the systemic veins; right ventricle preload comes from the right atrium through the tricuspid valve; left atrium preload comes from the pulmonary veins; left ventricle preload comes from the left atrium through the mitral valve. 
+
+\subsubsection{Afterload}
+Afterload is the term given for the pressure that a chamber muscle overcome in order to cause blood flow out of the chamber. The pressure of afterload depends on which chamber must overcome that pressure. For the right atrium it is the pressure exerted on the tricuspid valve by the right ventricle; for the right ventricle it is the pressure exerted on the pulmonic valve by the pulmonary arteries; for the left atrium it is the pressure exerted on the mitral valve by the left ventricle; for the left ventricle it is the pressure exerted on the aortic valve by the aorta (first of the systemic arteries). 
+
+% Left off here on June 27th at 6:41 am
+
+
+\paragraph{Rate Pressure Product}
+
+The rate pressure product (RPP), also referred to as the double product, is described by the equation: $RPP = HR \times SBP$, where HR is heart rate and SBP is systolic blood pressure. It is an indication of cardiac muscle (myocardium) oxygen demand. This experimental observation has useful clinical application. It also demonstrates the fact that pressure generated by the myocardium is the end product of tension which requires oxygen.
 
 Rate pressure product (RPP), or double product, is HR  SBP and is an indication of myocardial oxygen demand.
 •	If a patient undergoes maximal exercise testing and has myocardial ischemia, RPP can be calculated at the point when ischemia is occurring to establish the patient’s ischemic threshold.
