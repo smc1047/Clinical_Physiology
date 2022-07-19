@@ -18,7 +18,6 @@ This chapter covers blood support of the extracellular fluid and cellular functi
 \section{Respiration Overview}
 Muscle function requires energy in the form of ATP. Sustained regeneration of ATP in the mitochondria continuously produces $CO_2$ that must be removed from the muscle fiber, and requires $O_2$ which must be delivered to the muscle fiber. The microcirculation removes and provides what the muscle fibers need, including the removal of $CO_2$ and delivery of $O_2$ (Cellular Respiration). The microcirculation of the blood gases from and into muscle fibers requires a concentration gradient that requires a continuous circulation of blood to the muscle capillary network. Blood provides a transport mechanism for both $CO_2$ and $O_2$ (Blood Transport). The circulation of blood from the muscles through veins to the right side of the heart delivers all blood (venous return) to the pulmonary circulation. The pulmonary circulation delivers venous blood through pulmonary arteries to the interstitial space surrounding alveoli (air sacs) in the lungs (Pulmonary Circulation). Microcirculation (primarily gas diffusion) results in the equilibration of blood gases with the alveoli gases (Pulmonary Respiration). Pulmonary circulation then returns arterial blood through pulmonary veins to the left side of the heart for system wide distribution.
 
-
 \section{Cellular Respiration}
 
 The beginning of cellular respiration occurs inside the mitochondria with aerobic metabolism. It is aerobic metabolism that utilizes $O_2$ and produces $CO_2$ in sufficient quantities to require continuous exchange with the sarcoplasm, interstitial space, circulating blood and ultimately the environment (gas exchange). Cellular respiration establishes the need for what can be referred to as internal respiration, the gas exchange of $O_2$ and $CO_2$ between the intracellular and extracellular (both interstitial and vascular compartments. For simplicity we will use the terms cellular and internal respiration interchangeably.
@@ -45,11 +44,6 @@ Figure \ref{fig:ecf_respiration} is from Chapter \ref{chp:ecf_microcirculation}.
     \label{fig:ecf_respiration}
 \end{figure}
 
-The diffusion of $O_2$ into the tissue (interstitial space) reduces the partial pressure of $O_2$ in the blood. The $PO_2$ at the venous end of the capillary is the $P_vO_2$. An important concept is that the $P_vO_2$ from different areas of the body can be quite different. The regional $P_vO_2$ depends on the regional metabolism. While the $P_aO_2$ is the same throughout the arterial circulation, the $P_vO_2$ is different throughout the venous circulation, but continues to mix and become similar until the final mixing chambers of the right atrium and ventricles are reached. In other words, the $P_vO_2$ in the right ventricle represents a weighted mean from the entire body. And it is the $P_vO_2$ from the right ventricle that gets sent to the lungs, which means all of the alveoli receiving blood get blood with the same $PO_2$.
-
-\paragraph{Carbon Dioxide}
-
-Partial pressure driven diffusion of $CO_2$ follows the same reasoning as above but in the opposite direction. The $P_cCO_2$ is the highest partial pressure which drives diffusion of $CO_2$ out of the cell into the interstitial fluid. The $P_tCO_2$ is higher than the $Pa_CO_2$ in the arterial blood at the arterial end of the capillary, which drives $CO_2$ into the capillary. The $P_cCO_2$ is variable based on the rate of $CO_2$ produced during aerobic metabolism (TCA). The diffusion of $CO_2$ into the blood increases the $PCO_2$ in blood flowing through the capillary. At the venous end the $P_vCO_2$ equilibrates to whatever is in the tissue which is higher than the $P_aCO_2$. There tends be wider fluctuation in $P_aCO_2$ than in $P_aO_2$ due to the much lower atmospheric partial pressure of $CO_2$. For reasons that will be partially elucidated in this chapter and more fully explained in Chapter \ref{chp:alveolar_oxygen} on Ventilation, variation in ventilation (breathing rate and volume) can create large fluctuations in $P_aCO_2$ with relatively little change in $P_aO_2$. 
 
 \subsection{Factors Influencing Diffusion}
 
@@ -75,6 +69,31 @@ Equation \ref{diffusion} assumes that the membrane is permeable to the substance
 
 Since a nearly equal amount of $O_2$ and $CO_2$ is diffused across the cell, capillary and alveolar-capillary membrane during the microcirculation of blood the diffusion rates are, for all intents and purposes, equal under physiological conditions. They are always crossing the same membranes and therefore have the same $A$ and $T$. Since, as can be seen in Figure \ref{fig:ecf_respiration} the partial pressure gradients ($P_1 - P_2$) are not equal, the diffusion coefficient ($d$) must be (and indeed) is different between $O_2$ and $CO_2$. As can be deduced from Equation \ref{diffusion}, $CO_2$ has a higher $d$ due to a higher solubility.\footnotemark\footnotetext{This relationship between solubility, partial pressure and diffusion is much more complicated than this since not only does solubility influence the diffusion coefficient and the rate of diffusion for a given partial pressure gradient, but solubility is inversely proportional to the partial pressure of the substance that is soluble based on Henry's law. These factors are beyond the depth of this text \cite{christmas_equations_2017}.}
 
+\paragraph{Tissue $O_2$ Uptake}
+
+The diffusion of $O_2$ into the tissue (interstitial space) reduces the partial pressure of $O_2$ in the blood (See Figure \ref{fig:tissue_diffusion}). The $PO_2$ at the venous end of the capillary is the $P_vO_2$ and reflects how much $O_2$ has been taken in by the cells. An important concept is that the $P_vO_2$ from different areas of the body can be quite different. The regional $P_vO_2$ depends on the regional metabolism. While the $P_aO_2$ is the same throughout the arterial circulation, the $P_vO_2$ is different throughout the venous circulation, but continues to mix and become similar until the final mixing chambers of the right atrium and ventricles are reached. In other words, the $P_vO_2$ in the right ventricle represents a weighted mean from the entire body. And it is the $P_vO_2$ from the right ventricle that gets sent to the lungs, which means all of the alveoli receiving blood get blood with the same $PO_2$. Under resting conditions approximately 5 $mL O_2 / 100 mL$ of blood is taken in by tissues \cite{hall_guyton_2020}. However, this is an average and the true value is variable across the body with tissues such as the heart, brain and breathing skeletal muscles being slightly higher at rest, and inactive skeletal muscle lower when at rest.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.75\linewidth]{./figure/tissue_diffusion.png}
+    \caption{Tissue Diffusion of $O_2$ \& $CO_2$ \footnotesize{(Created with BioRender.com)}}
+    \label{fig:tissue_diffusion}
+\end{figure}
+
+There is a linear relationship between tissue metabolism and $O_2$ utilization. Since the rate of the energetic pathways is related to the ATP:ADP ratio (normally 5:1), alterations to the amount of ADP in a cell tend to result in proportional changes to the rate of $O_2$ utilization. For example, if cellular ADP is $\frac{1}{2}$ of its normal value then $O_2$ utilization will be $\frac{1}{2}$ its normal value (ATP:ADP ratio might be 11:1). If cellular ADP is $1.5 \times$ higher than normal, then $O_2$ utilization is $1.5 \times$ higher than normal (ATP:ADP ratio might be 3:1) \cite{hall_guyton_2020}. The take home message is that the rate of $O_2$ utilization in the energetic pathways determines the rate of uptake of $O_2$ by the tissues and cells, and the venous $O_2$. 
+
+\paragraph{Tissue $CO_2$ Release}
+Partial pressure driven diffusion of $CO_2$ follows the same reasoning as with the diffusion of $O_2$ but in the opposite direction (See Figure \ref{fig:tissue_diffusion}). The cellular partial pressure of $CO_2$ ($P_cCO_2$) is the highest partial pressure which drives diffusion of $CO_2$ out of the cell into the interstitial fluid. The $P_tCO_2$ is higher than the $Pa_CO_2$ in the arterial blood at the arterial end of the capillary, which drives $CO_2$ into the capillary. The $P_cCO_2$ is variable based on the rate of $CO_2$ produced during aerobic metabolism (TCA). The diffusion of $CO_2$ into the blood increases the $PCO_2$ in blood flowing through the capillary. At the venous end the $P_vCO_2$ equilibrates to whatever is in the tissue which is higher than the $P_aCO_2$. There tends be wider fluctuation in $P_aCO_2$ than in $P_aO_2$ due to the much lower atmospheric partial pressure of $CO_2$. For reasons that will be partially elucidated in this chapter and more fully explained in Chapter \ref{chp:alveolar_oxygen} on Ventilation, variation in ventilation (breathing rate and volume) can create large fluctuations in $P_aCO_2$ with relatively little change in $P_aO_2$. Under resting conditions approximately 4 $mL CO_2 / 100 mL$ of blood is released from the tissues. 
+
+\paragraph{Respiratory Exchange Ratio (RER)}
+
+The RER, introduced in Chapter \ref{chp:energetics} on Energetics, is based on the volume of $CO_2$ produced and released into the blood (and eventually expired by breathing); and the volume of $O_2$ taken in from the blood and utilized in the mitochondria. 
+\begin{equation}
+    RER = \frac{\dot{V}CO_2}{\dot{V}O_2}
+\end{equation}
+With a mixed substrate diet (fats and carbohydrates) the RER = 0.8, which is based at a cellular level on the release of approximately 4 $mL CO_2 / 100 mL$ and the uptake of approximately 5 $mL O_2 / 100 mL$. With a purely carbohydrate metabolism the RER = 1.0 and with purely fats it is $\approx$ 0.7. 
+
+% Consider expanding the chemical explanation of why the ratio changes and relate to diets....
 
 
 \section{Blood Transport}
@@ -87,10 +106,9 @@ A small amount of $O_2$ (approximately 1-2\%) and $CO_2$ (approximately 7\%) is 
 
 Red blood cells (RBCs), also referred to as erythrocytes, constitute approximately 45\% of the total blood volume (Hematocrit, HcT). RBCs do not have a nucleus and therefore do not divide. They are regenerated and replaced regularly in the bone marrow through the process called erythropoiesis. Erythropoiesis is stimulated by the hormone erythropoietin (EPO) which is released from the kidneys.
 
-%Add the life cycle of RBCs figure
-\begin{figure}
+\begin{figure}[!h]
     \centering
-    \includegraphics{./figure/RBC.png}
+    \includegraphics[width=1.0\linewidth]{./figure/RBC.png}
     \caption{Life Cycle of Erythrocytes \footnotesize{(Created with RioRender)}}
     \label{fig:RBC}
 \end{figure}
@@ -111,23 +129,26 @@ Anemia with HcT in the range of 0.3 - 0.4 is common following surgery and a caus
 
 RBCs can have antigens on their cell membrane that are named A and B. Blood can occur with three possible types, A, B, AB or O (O being an indication that the RBC membrane has neither A or B antigens. Whatever antigen an RBC membrane has, it's plasma contains anti-bodies for the opposite antigen. If A antigen is present on the RBC then the plasma has Anti-B antibodies. If A and B antigen is present (AB blood) then the plasma has neither antibody. If no antigen is present (O blood) then the plasma has both antibodies. The type of blood influences whether the blood can be donated or received as summarized in Figure \ref{fig:ABO}.
 
-%Add ABO blood type figure
-
-\begin{figure}
+\begin{figure}[!h]
     \centering
-    \includegraphics{./figure/ABO.png}
+    \includegraphics[width=1.0\linewidth]{./figure/ABO.png}
     \caption{ABO Blood Types}
     \label{fig:ABO}
 \end{figure}
 
 \subsubsection{Blood Transport of $CO_2$}
 
-$CO_2$ is transported directly in the blood in a small quantity (7\%) which generates the partial pressure of $CO_2$ in the blood ($P_aCO_2$ in arterial blood, and $P_vCO_2$ in the venous blood). 
+There are three ways that $CO_2$ is transported in the blood (See Figure \ref{fig:co2_transport}). $CO_2$ is transported directly in the blood in a small quantity (7\%) which generates the partial pressure of $CO_2$ in the blood ($P_aCO_2$ in arterial blood, and $P_vCO_2$ in the venous blood). 
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1.0\linewidth]{./figure/co2_transport.png}
+    \caption{Blood Transport of $CO_2$}
+    \label{fig:co2_transport}
+\end{figure}
 
 The majority of $CO_2$ is transported as bicarbonate ($HCO_3^-$) (approximately 70\%) through the following chemical reaction within the red blood cells (RBCs). 
 Within the RBC $CO_2 + H_2O \rightarrow H_2CO_3$ which is facilitated by the enzyme carbonic anhydrase. To buffer this acid, a hemoglobin (HgB) will bind with $H^+$ to form $HgB-H^+$ (which stays in the RBC) and a molecule of $HCO_3^-$ which is released into the plasma through an exchange with $Cl^-$ in a process known as the chloride shift.
-
-% Consider adding a figure such as page 33 in the ppt
 
 The remaining $CO_2$ (approximately 23\%) binds directly with HgB to form $HgB-CO_2$ which is referred to as carbaminohemoglobin (not to be confused with carboxyhemoglobin which is $HgB-CO$ from the inhalation of carbon monoxide, the result being carbon monoxide poisoning). 
 
@@ -138,18 +159,43 @@ These processes are facilitated by the movement of $CO_2$ into the RBCs which oc
 
 $O_2$ is transported directly in the blood in a small quantity (1-2\%) which generates the partial pressure of $O_2$ in the blood ($P_aO_2$ in arterial blood, and $P_vO_2$ in the venous blood). 
 
-The majority of $O_2$ is transported in RBCs, attached to HgB. The partial pressure ($PO_2$) gradients facilitate the movement across membranes, including into the RBCs, which then allow $O_2$-HgB binding. The affinity for $O_2$-HgB binding is related to the $PO_2$ as well as to the number of binding sites of a HgB molecule already bound with $O_2$. With each binding site that has an $O_2$ bound to it, there is an increased affinity for the other binding sites to bind. The binding of $O_2$ to HgB is also influenced by the temperature (increased temperature reduces $O_2$-HgB affinity), and the pH (acidity reduces $O_2$-HgB affinity), as well as a 2,3-bisphosphoglycerate (BPG) (increased BPG reduces affinity). BPG is found in RBCs and preferentially binds to HgB when $O_2$ is not bound to HgB. However, if there is an increase in BPG there is reduced affinity of HgB to bind with $O_2$. At first this sounds negative. However, as we will discuss soon, reducing the affinity of HgB for $O_2$ is helpful when the goal is to release $O_2$ so that it can diffuse into the metabolically active cells requiring $O_2$.
+The majority of $O_2$ is transported in RBCs, attached to HgB. The partial pressure ($PO_2$) gradients facilitate the movement across membranes, including into the RBCs, which then allow $O_2$-HgB binding. The affinity for $O_2$-HgB binding is related to the $PO_2$ as well as to the number of binding sites of a HgB molecule already bound with $O_2$. With each binding site that has an $O_2$ bound to it, there is an increased affinity for the other binding sites to bind. The binding of $O_2$ to HgB is also influenced by the temperature (increased temperature reduces $O_2$-HgB affinity), and the pH (acidity reduces $O_2$-HgB affinity), as well as a 2,3-bisphosphoglycerate (BPG) (increased BPG reduces affinity). BPG is found in RBCs and preferentially binds to HgB when $O_2$ is not bound to HgB. However, if there is an increase in BPG there is reduced affinity of HgB to bind with $O_2$. At first this sounds negative. However, as we will discuss soon, reducing the affinity of HgB for $O_2$ is helpful when the goal is to release $O_2$ so that it can diffuse into the metabolically active cells requiring $O_2$. Fluctuations in BPG tend to be RBC adaptations in response to chronic conditions.
 
-The relationship between the $PO_2$ and the amount of $O_2$ bound to HgB expressed as the percentage of binding sites of HgB with $O_2$ (oxygen saturation, $SO_2$) is given in the oxyhemoglobin saturation curve. The features of this curve depict, first, the relationship between $PO_2$ and $SO_2$; and shifts in the curve depict the influence of pH, $PCO_2$, temperature, and BPG. The curve is usually considered from the perspective of arterial blood and therefore the relationship between $P_aO_2$ and $S_aO_2$. When considering $P_aO_2$ and $S_aO_2$ the oxygen content of arterial blood that is being delivered is being assessed, reduced values indicate hypoxemia. However it is equally valid to consider the curve in the capillary or venous blood when considering the utilization of $O_2$ by the cells of the body; and the influence of the $O_2$-HgB affinity on releasing $O_2$ into the tissues.
+The relationship between the $PO_2$ and the amount of $O_2$ bound to HgB expressed as the percentage of binding sites of HgB with $O_2$ (oxygen saturation, $SO_2$) is given in the oxyhemoglobin saturation curve. The features of this curve depict, first, the relationship between $PO_2$ and $SO_2$; and shifts in the curve depict the influence of pH, $PCO_2$, temperature, and BPG. The curve is usually considered from the perspective of arterial blood and therefore the relationship between $P_aO_2$ and $S_aO_2$ and the diffusion of $O_2$ during loading of HgB with $O_2$. When considering $P_aO_2$ and $S_aO_2$ the oxygen content of arterial blood that is being delivered is being assessed, reduced values indicate hypoxemia. However, it is equally valid to consider the curve in the capillary or venous blood when considering the utilization of $O_2$ by the cells of the body; and the influence of the $O_2$-HgB affinity on releasing (unloading) $O_2$ into the tissues.
 Note, when $S_aO_2$ is estimated with a pulsed oximeter it is abbreviated as $S_p_O_2$.
 
-% Add some oxyhemoglobin dissociation curves and further discussion
+\subsubsection{Oxyhemoglogin Dissociation Curve}
 
+Figure \ref{fig:oxyhemo1} depicts the oxyhemoglobin dissociation curve simulated with two different pH. The Y-axis is the $SO_2$ and the X-axis is the $PO_2$. The $PO_2$ is primary determinant $O_2$-HgB binding, and pH is a second determinant. The sigmoidal relationship identifies an important area in this relationship. A critical juncture where reductions of $PO_2 < 60$ include rapid reductions in $SO_2$ due to a reduced $O_2$-HgB binding affinity. When considering capillary and venous blood, this is a helpful attribute for unloading $O_2$ for diffusion into cells. However, if arterial $O_2$ partial pressure ($P_aO_2$) drops below 60 $mmHg$ then there barely enough $O_2$-HgB binding (hypoxemia is a $P_aO_2 <60$ or $S_aO_2 < 90$). And further drops in $P_aO_2$ will result in rapid and significant drops in $S_aO_2$. The implications of the sigmoidal shape of the curve is further discussed in Chapter \ref{chp:alveolar_oxygen} on Ventilation since the most common reason for drops in $P_aO_2$ are changes and insufficiency in ventilation. 
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1.0\linewidth]{./figure/oxyhemo1.png}
+    \caption{Oxyhemoglobin Dissociation Curve}
+    \label{fig:oxyhemo1}
+\end{figure}
+
+Table \ref{table:oxyhemo} depicts a linear approximation at the critical juncture in the oxyhemoglobin curve that is worthwhile to remember in the interpretation of arterial blood gases (ABGs) or pulsed oximetry. If $S_pO_2$ is 90\%, then $P_aO_2$ can be estimated at 90 $mmHg$, and vice versa. A further drop in $P_aO_2$ of 10 $mmHg$ to 50 $mmHg$ will result in a drop in $S_pO_2$ to 80\%.
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{||c|c|c|c||} 
+ \hline
+ $S_aO_2$ & 70 & 80 & 90 \\ 
+ \hline
+ $P_aO_2$ & 40 & 50 & 60 \\[1ex] 
+ \hline
+\end{tabular}
+\caption{Linear Approximation of Oxyhemoglobin Dissociation Curve}
+\label{table:oxyhemo}
+\end{table}
+
+Figure \ref{fig:oxyhemo} also depicts a right shift to the oxyhemoglobin dissociation curve based on pH. Besides $PO_2$, pH has the largest impact on HgB binding affinity. Fluctuations to pH occur as the blood circulates from working skeletal muscles to the lungs. In working skeletal muscle the pH tends to be lower due to the production of $H^+$ from the energetic pathways. The broken line in Figure \ref{fig:oxyhemo1} estimates the oxyhemoglobin dissociation curve in the skeletal muscle during exercise (favors unloading of $O_2$) when pH can drop to as low as 6.9. As can be seen in the figure, at any given $PO_2$, less HgB is bound to oxygen with a lower pH. In working muscle this is helpful because it means more $O_2$ will be released from HgB and available for diffusion.
 
 
 \section{Pulmonary Circulation}
 
-The majority of pulmonary circulation is to the alveoli (small air sacs of the lung). Alveolar circulation is a low pressure - high volume system with such a high density of capillaries that the blood flows almost as sheets in close contact surrounding the alveoli. Blood leaving the right ventricle (RV) flows into pulmonary arteries (venous blood) and into the alveolar circulation for respiration (gas exchange) with the alveoli to become arterial blood. After flowing through the capillaries of the alveoli this arterial blood returns to the left atrium (LA) through the pulmonary veins. 
+The majority of pulmonary circulation is to the alveoli (small air sacs of the lung). Pulmonary (alveolar) circulation is a low pressure - high volume system with such a high density of capillaries that the blood flows almost as sheets in close contact surrounding the alveoli. Blood leaving the right ventricle (RV) flows into pulmonary arteries (venous blood) and into the alveolar circulation for respiration (gas exchange) with the alveoli to become arterial blood. After flowing through the capillaries of the alveoli this arterial blood returns to the left atrium (LA) through the pulmonary veins. 
 Approximately 1-2\% of cardiac output is sent to the bronchial arteries of the lungs for oxygenation of lung cells. This circulation is from the systemic circulation (from the left ventricle), but it returns its venous blood to the heart through the pulmonary veins into the LA. This small amount of venous blood mixes with the otherwise arterial blood in the LA and has a minor, inconsequential, effect on the $P_aO_2$ and $S_aO_2$.
 
 \paragraph{Pulmonary Circulation Pressures}
@@ -172,29 +218,109 @@ The volume and rate of pulmonary circulation equals the volume and rate of syste
 
 As with the peripheral circulation the distribution of pulmonary circulation is largely dependent on local regulation. One fundamental difference is that local regulation of pulmonary (alveolar) circulation is opposite of muscular capillary. In the muscular (systemic circulation) arterioles local indications of low oxygen concentration or high metabolism resulted in vasodilation in an effort to increase blood flow to those capillaries. However, in the pulmonary circulation, low oxygen concentration results in arteriole vasoconstriction, in an effort to shift blood away from those capillaries. This makes complete sense for the distribution of circulation in the lungs, where the reason for blood to be delivered to capillaries surrounding alveoli is to obtain $O_2$, not to deliver $O_2$. If some alveoli have poor airflow and low $P_AO_2$ then it is best for blood not to circulate to that alveolar-capillary network. Arterioles of alveoli-capillary networks that have high $P_AO_2$ vasodilate, to promote circulation to those alveoli with more oxygen.
 
-Respiratory sinus arrhythmia (RSA) refers to the observation that in healthy individuals at rest there is a cyclic variation in heart rate with the respiratory (breathing) frequency. With inhalation HR tends to go up a few beats per minute; with exhalation HR tends to diminish a few beats per minute. The RSA is a dominant source of what is called high frequency heart rate variability (HRV) and is associated with parasympathetic nervous system activity (vagal cardiac tone). It has been hypothesized that RSA helps to maximize blood flow through the pulmonary circulation when alveoli have more ventilation as a feedforward (not feedback) system of control. Feedforward in that HR increases in response to the same trigger for inhalation, not in response to there being more oxygen in the lungs. There is evidence that RSA helps to maximize what is called ventilation - perfusion matching at rest \cite{} % Cite Hayano
+Respiratory sinus arrhythmia (RSA) refers to the observation that in healthy individuals at rest there is a cyclic variation in heart rate with the respiratory (breathing) frequency. With inhalation HR tends to go up a few beats per minute; with exhalation HR tends to diminish a few beats per minute. The RSA is a dominant source of what is called high frequency heart rate variability (HRV) and is associated with parasympathetic nervous system activity (vagal cardiac tone). It has been hypothesized that RSA helps to maximize blood flow through the pulmonary circulation when alveoli have more ventilation as a feedforward (not feedback) system of control. Feedforward in that HR increases in response to the same trigger for inhalation, not in response to there being more oxygen in the lungs. There is evidence that RSA helps to maximize ventilation - perfusion matching at rest \cite{hayano_hypothesis_2003}.
 
-Chapter \ref{chp:alveolar_oxygen} on Ventilation considers the concept of ventilation - perfusion $\dot{V}/\dot{Q}$ matching, and the impact of body position on $\dot{V}/\dot{Q}$ matching zones.
-
-% Left off here on Monday morning 
+Chapter \ref{chp:alveolar_oxygen} on Ventilation considers the concept of ventilation - perfusion $\dot{V}/\dot{Q}$ matching, the impact of body position on $\dot{V}/\dot{Q}$ matching zones, and the impact of $\dot{V}/\dot{Q}$ matching on the $P_AO_2-P_aO_2$ gradient, otherwise known as the A-a gradient.
 
 \section{External (Alveolar) Respiration}
 
+External (alveolar) respiration is gas change from the alveolar capillary blood with the alveoli. As with in the systemic capillaries and tissues diffusion occurs with the partial pressure gradients of $O_2$ and $CO_2$. Diffusion is influenced by the factors in Equation \ref{diffusion}. The structure of alveoli (thin membrane) and alveolar capillaries (dense network forming sheets in close contact with the thin alveolar membrane) are well equipped for rapid diffusion and full equilibration of $O_2$ and $CO_2$. 
 
 
-\subsection{Alveolar $PO_2$ Equilibration}
+\subsection{Alveolar $O_2$ Diffusion}
+
+A ventilated alveoli at sea level will have a partial pressure of oxygen ($P_AO_2$) of approximately 104 $mmHg$. The atmosphere at sea level has a partial pressure of $O_2$ of approximately 159.5 mmHg. The $PO_2$ from the atmosphere to the arterial blood drops as it passes into the alveoli occurs because air is humidified (so some of the pressure is now due to water molecules); because $CO_2$ is being diffused into the alveoli (so some of the pressure is due to $CO_2$); and because $O_2$ is being diffused out of the alveoli (so there is a regular reduction in the concentration of $O_2$). Maintaining a $P_AO_2 \approx 104 mmHg$ requires continuous air exchange with the atmosphere (alveolar ventilation, $V_A$).
+
+The full equilibration of blood at a single alveoli is depicted in Figure \ref{fig:alveolar_equilibration}. Note that the $P_aO_2 = P_AO_2$. This requires alveoli with normal membrane thickness and surface area in contact with capillaries, and normal capillary membranes. During equilibration of $O_2$ it is binding to HgB based on the $P_aO_2$ according to the oxyhemoglobin curve (Figure \ref{fig:oxyhemo1}. 
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1.0\linewidth]{./figure/alveolar_equilibration.png}
+    \caption{Equilibration of Alveolar Diffusion}
+    \label{fig:alveolar_equilibration}
+\end{figure}
 
 \paragraph{Atmospheric Limits}
 
-The atmospheric $PO_2$ places a limit on how high the alveolar partial pressure ($P_AO_2$) can be and therefore how high the $P_aO_2$ can be. This upper limit means now matter how much someone breathes, there is an upper limit on diffusion of oxygen into the blood. That upper limit is reduced with lower atmospheric $PO_2$.
+The atmospheric $PO_2$ places a limit on how high the alveolar partial pressure ($P_AO_2$) can be and therefore the highest value of $P_AO_2$ and $P_aO_2$. This upper limit means now matter how much someone breathes, there is an upper limit on diffusion of oxygen into the blood. That upper limit is reduced with lower atmospheric $PO_2$, which is the case with higher altitude. 
 
+% The influence of reduced atmospheric pressure on inspired oxygen is calculated at the effective oxygen percentage ($E_iO_2$). At sea level the $E_iO_2$ is the same as the fraction of inspired oxygen ($F_iO_2$)  and is 0.2099 (usually rounded to 0.21) or 21\%. At the top of Mount Washington (6288 feet), the $E_iO_2 \approx 0.162$. At the top of Mount Everest (29,029 feet), the $E_iO_2 \approx 0.069$. Studies have confirmed that at altitudes higher than 26,000 feet ($\approx$ 8,000 meters) that the $E_iO_2$ of $\approx 0.078$ is not sustainable to life. Practically this means that above that altitude, or below that $E_iO_2$, the body has enough hypoxia that it cannot absorb nutrients or perform vital functions and it starts to shut down. This does not mean sudden death. But it does mean eventual death since the body cannot recover from fatigue, so it does not have the ability to perform the required work:rest cycles for life.
+
+\subsection{Alveolar $CO_2$ Diffusion}
+
+A ventilated alveoli at sea level will have a partial pressure of carbon dioxide ($P_ACO_2$) of approximately 40 $mmHg$. The $PCO_2$ drops dramatically from the arterial blood to the atmosphere ($P_{atm}CO_2 \approx 0.3 mmHg$). The full equilibration of blood so that the $P_aCO_2 = P_ACO_2$ requires alveoli with normal membrane thickness and surface area in contact with capillaries, and normal capillary membranes (See Figure \ref{fig:alveolar_equilibration}). During equilibration of $CO_2$ the processes discussed in the section on $CO_2$ transport in the blood in reverse to release $CO_2$ from the blood (See Figure \ref{fig:co2_transport}). 
+
+\paragraph{Atmospheric Limits}
+
+The atmospheric $PCO_2$ places a very low limit on the alveolar partial pressure ($P_ACO_2$)and therefore there is a very low limit for $P_aCO_2$. The lack of a limit means alveolar ventilation ($V_A$) strongly determines the $P_aCO_2$. The situations of hyperventilation (lower than normal $P_a_CO_2$), and hypoventilation (higher than normal $P_aCO_2$) are discussed in Chapter \ref{chp:alveolar_oxygen}. 
+
+\subsection{$P_aCO_2$ and Brain Blood Flow}
+
+Two mechanisms control brain blood flow by changing blood vessel radius: autoregulation maintains flow in the face of perfusion pressure changes, and brain metabolism adjusts flow to meet metabolic requirements. Brain blood vessel reactivity to $P_aCO_2$ is an important component flow adjusting to metabolic requirements. Below a threshold ($P_aCO_2 \approx 36 mmHg$), blood pressure was unchanged, but blood flow increases in response to increased $P_aCO_2$, and decreases in response to decreased $P_aCO_2$. Above the threshold ($P_aCO_2 \approx 36 mmHg$), both blood flow and pressure increased in response to increased $P_aCO_2$, and decreases in response to decreased $P_aCO_2$ \cite{battisti-charbonney_cerebrovascular_2011}. This relationship provides an explanation for lightheartedness during hyperventilation (reduced $P_aCO_2$), and signs and symptoms attributed to hyperventilation (or over breathing) syndrome \cite{courtney_investigating_2008}.
 
 \section{Practice Connections}
 
-\subsection{Acid - Base Balance \& Arterial Blood Gases}
+\subsection{Arterial Blood Gases}
+
+Arterial Blood Gases (ABGs) are measured from a sample of arterial blood and provide information on the arterial (plasma) partial pressure of $O_2$ and $CO_2$, the arterial blood pH, and the arterial blood bicarbonate ($HCO_3^-$). There are several standards for reporting these values in tabular form, the convention we will use, and normal values are depicted in Table \ref{table:ABGs}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{||c|c|c|c||} 
+ \hline
+ $P_aO_2$ & $P_aCO_2$ & pH & $HCO_3^-$ \\ [0.5ex] 
+ \hline
+ 95-100 $mmHg$ & 35-45 $mmHg$ & 7.35-7.45 & 22-26 $mmol/L$ \\ [1ex] 
+ \hline
+\end{tabular}
+\caption{Normal Ranges of the Arterial Blood Gases}
+\label{table:ABGs}
+\end{table}
+
+\subsection{Acid - Base Balance \& Disorders}
+
+Acid base balance is when pH is at it's normal blood level of 7.35-7.45. Disorders of acid base balance are classified as acidosis when pH is below 7.35, and alkalosis when pH is above 7.45. There are two general causes of imbalances, respiratory (due to altered $P_aCO_2$), or metabolic (primarily renal) due to altered $HCO_3^-$. The four possible situations are:
+\vspace{3mm}
+\begin{itemize}
+    \item Respiratory Acidosis: Decreased pH due to elevated $P_aCO_2$
+    \item Respiratory Alkalosis: Increased pH due to decreased $P_aCO_2$
+    \item Metabolic Acidosis: Decreased pH due to decreased $HCO_3^-$
+    \item Metabolic Alkalosis: Increased pH due to increased $HCO_3^-$
+\end{itemize}
+\vspace{3mm}
+
+Respiratory and metabolic (renal) mechanisms can compensate for acid base disturbances created by the other system. Respiratory compensation refers to the use of respiratory adjustments to $P_aCO_2$ to compensate (normalize, but not completely, pH) when there is a metabolic disturbance. Metabolic compensation refers to the use of metabolic adjustments to $HCO_3^-$ to compensate (normalize, but not completely, pH) when there is a respiratory disturbance. Respiratory compensation is rapid since it simply involves changing breathing rate and depth (ventilation), it can occur in seconds to minutes. Metabolic compensation involves renal clearance and possibly production of more $HCO_3^-$, so it takes hours to days, depending on what is required, GFR, and urine output (which depends on fluid intake).
+
+\paragraph{Interpretation of ABGs to Evaluate Acid Base Balance}
+
+Figure \ref{fig:ABGs} provides a decision tree for the evaluation of acid base balance. The process starts with an assessment of the pH. Since compensation can return pH close to the normal of 7.4 the process considers the range of pH but may ultimately decide there is an imbalance even if pH is within the range of 7.35-7.45. So, the interpretative process does not simply stop if pH is within the normal range.
+
+% NEed to make a ABG interpretation figure
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1.0\linewidth]{./figure/ABGs.png}
+    \caption{Interpretation of ABGs to Evaluate Acid Base Balance}
+    \label{fig:ABGs}
+\end{figure}
 
 \subsection{Pulmonary Function Testing - DLCO}
+DLCO is a pulmonary function test that evaluates the diffusing capacity of the lung for carbon monoxide ($CO$)). It is used to evaluate the extent that $O_2$ diffuses across the alveoli-capillary membrane into the capillary blood impacting the $P_aO_2$. The test involves measuring the partial pressure difference between inspired and expired $CO$. It relies on the strong affinity and large absorption capacity of red blood cells for carbon monoxide and thus demonstrates gas uptake by the capillaries. DLCO is also affected by the HgB, carboxyhemoglobin, age and sex. DLCO is measured in $ml/min/kPa$ ($kPa$ as an SI unit of pressure, the kilopascal). However, DLCO is usually reported as a percent of predicted value based on age and sex. Values between 80-120\% predicted are generally accepted as normal. Values below 80\% indicate possible limitations to $O_2$ diffusion in the lung. With a low DLCO it is less likely that capillary blood will equilibrate with $P_AO_2$ while in the alveolar capillary, and is therefore more likely that $P_aO_2$ will be reduced.
+DLCO may be reduced in individuals with conditions that impact the thickness or surface area of alveoli (Equation \ref{diffusion}) such as emphysema, pulmonary fibrosis, or pulmonary hypertension.
 
 \subsection{Pulsed Oximetry}
+
+Pulsed oximetry indirectly monitors the $O_2$ saturation of arterial blood ($S_pO_2$) as opposed to a measurement directly from arterial blood ($S_aO_2$). A pulsed oximetry device is usually referred to as an oximeter, or more colloquially a "pulse ox". 
+Oximeters use an electronic processor and a pair of small light-emitting diodes (LEDs) facing a photodiode through a translucent part of the skin, such as a fingertip or earlobe. Each LED emits a different wavelength of light. Absorption of light at these wavelengths differs significantly between $O_2$-HgB and HgB. The amount of light not absorbed from each LED is measured, and separate normalized signals are produced for each wavelength. These signals fluctuate in time because the amount of arterial blood that is present increases (literally pulses) with each heartbeat. The signals are used to calculate an estimate of $S_aO_2$ known as $S_pO_2$. Most units are accurate within 2.5\% down to approximately 70\% saturation. The signals also reflect the volume of pulsatile capillary flow (photoplethysmogram (PPG)) that pulses with left ventricular systole and can therefore also be used to determine pulse rate (as an estimate of heart rate), and indices related to blood flow volume and timing.
+
+Poor blood flow to the extremity may cause erroneously low readings which can be as simple as a cold limb, or vasoconstriction (so not all low readings are low). There do not tend causes of erroneously high readings (so normal / high readings tend to be normal). Other problems can include incorrect sensor application (such as not placing the LEDs on the thinner skin surface area); highly calloused skin; movement; finger nail polish; or higher skin pigmentation. Oximeters that include a PPG waveform are usually more expensive but allow an assessment of sensor accuracy by verification that the sensor is producing a steady pulse waveform. In the absence of a PPG waveform another approach to confirm accuracy is to verify the pulse rate estimate from the oximeter is the same as the radial pulse.
+
+\section{Summary}
+
+
+
+\subsection{Next Step}
+
+
 
 \printbibliography[heading=subbibintoc]
