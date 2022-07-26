@@ -2,46 +2,158 @@
 \chapter{Ventilation}\label{chp:alveolar_oxygen}
 Updated on \today
 \minitoc
-This chapter covers pulmonary ventilation to support alveolar blood gases.
 
-This chapter presents an incomplete story of overall pulmonary support for the mass balance of $O_2$ and $CO_2$. It leaves off with alveolar respiration, and only considers alveolar respiration at one alveolus. In the next chapter we consider ventilation (breathing) mechanics and the process of drawing air into and out of the alveoli. Without continuous alveolar ventilation ($V_A$) there is no alveolar respiration; and without ventilation ($V_e$), there is no $V_A$. We also consider the important consideration of the distribution of $V_e$ throughout the lungs that results in regional differences in $V_A$, and the distribution of pulmonary perfusion ($\dot{Q}$). Because alveolar respiration cannot occur unless there is $V_A$ matched with capillary blood flow (perfusion). 
-
-%The regulation of blood $O_2$ and $CO_2$ includes monitoring these values with chemoreceptors, but the efferent (action) side of these regulatory pathways include variations in ventilation.
-
+Oxygen intake and carbon dioxide output are necessary for skeletal muscle energetics. The starting place of the intake of $O_2$ is drawing air into the lungs (ventilation) and the alveoli (alveolar ventilation). Similar, but opposite, the final expiration of $CO_2$ is releasing air out of the alveoli and lungs. This chapter covers alveolar ventilation ($V_A$), ventilation ($V_e$), ventilation/perfusion ($V/Q$) matching, the regulation of respiration through ventilation, and pulmonary insufficiency.  
 
 \vspace{5mm}
 
 \textbf{Objectives include:}
 \begin{enumerate}
-    \item
-    \item
-    \item
-    \item
-    \item
+    \item Know and understand the material in the chapter.
+    \item Connect and integrate material from other chapters with this chapter.
+    \item Connect and integrate the material from this chapter with other chapters.
 \end{enumerate}
 
-\section{Alveolar Gas}
+\section{Ventilation Overview}
 
-\section{Pulmonary Ventilation}
+Chapter \ref{chp:blood_oxygen} on Respiration established the need for alveolar ventilation and alveolar circulation. There are three recurring and important preliminary concepts: alveolar ventilation ($V_A$), ventilation ($V_e$) and ventilation / perfusion matching ($V/Q$).
+
+\subsection{Important Preliminary Concept}
+
+\begin{itemize}
+    \item Alveolar ventilation ($V_A$) is the movement of air into, and out of, the alveoli. Without continuous $V_A$ there is no alveolar respiration. 
+    \item $V_e$ is the movement of air into, and out of, the lungs. $V_e$ is necessary for $V_A$. Without ventilation ($V_e$), there is no $V_A$. 
+    \item Pulmonary perfusion is based on circulation ($Q$) and must be primarily distributed to alveoli receiving $V_A$. $V/Q$ matching refers to the matching of $V_A$ and pulmonary $Q$. Both $V_A$ and $Q$ are necessary for alveolar respiration. Without $V_A$ matching with pulmonary $Q$ there is no alveolar respiration.
+ \end{itemize}
+
+$V_e$ is the volume of air inspired (breathe in) or expired (breathe out) in a time period. It is most commonly measured in $mL/min$ or $L/min$. As a volume per minute, it is the volume of air per breath times the number of breaths per minute (bpm):
+\vspace{3mm}
+\begin{equation}
+    V_e (mL/min) = V_t (mL) \times RR (bpm)
+    \label{Ve}
+\end{equation}
+\vspace{3mm}
+
+In Equation \ref{Ve}, the abbreviation $V_t$ stands for tidal volume. Tidal volume is the volume of air inspired (or expired) with one breath. The underlying assumption for both $V_e$ and $V_t$ is that the volume of air inspired equals the volume of air expired. While this might not be the case breath by breath, it tends to be the case over a minute (or longer) time periods.
+
+\paragraph{Question} What would happen if the volume inspired did not equal the volume expired over a long period of time? Try this, breathe more in than out, how long can you do that? Now breathe more out than in, how long can you do that?
+
+\paragraph{} If there is an imbalance between $V_t$ in and $V_t$ out, it tends to be limited to transient periods that involve dynamic changes in $V_t$. For example, when $V_t$ increases in the transient periods from rest to exercise, or during exercise when there are variations in $O_2$ needs.
+
+\paragraph{Note all $V_e$ ends in the alveoli ($V_A$)}, either per breath ($V_t$), or per minute ($V_e$). And, not all $V_A$ is going to be to alveoli with perfusion (receive capillary circulation). Figure \ref{fig:ve_va.jpg} depicts the general concept that $V_e$ is going to be greater than $V_A$; and that $V_A$ is going to be greater than the $V/Q$. Pulmonary regulation is largely based on minimizing the discrepancy between $V_e$, $V_A$ and $V/Q$.
+
+\begin{figure}
+    \centering
+    \includegraphics[width = 1.0\linewidth]{./figure/ve_va.jpg}
+    \caption{Caption}
+    \label{fig:ve_va.jpg}
+\end{figure}
+
+\paragraph{Importance of this concept}
+The importance of this concept is that the alveolar respiration relies on the match between alveolar ventilation ($V_A$) and perfusion ($Q$). The consequences of all pulmonary (lung), and many cardiovascular, conditions ultimately rest on how they impact the ability to ventilate ($V_e$), the ability to turn as much $V_e$ into alveolar ventilation ($V_A$) as possible, or the ability to have as much $V_A$ perfusion as possible.
+
+\subsection{Dead Space Ventilation ($V_D$}
+Dead space ventilation that does not reach the alveoli (anatomical dead space), or that reaches the alveoli but does not receive perfusion (alveolar dead space). The combination of anatomical and alveolar dead space is called physiological dead space ($V_D$. To understand anatomical dead space ($VD_{ana}$) it is important to understand the structure and function of the airways.
+
+\section{Airways}
+
+The pathway of $O_2$ from the environment to the alveoli (or alveoli to the environment when considering $CO_2$) involves passage through a set of airways. It is important to recognize that only the alveoli are capable of gas exchange (diffusion, respiration). The difference between $V_e$ and $V_A$ starts with the airways.  
+
+Figure \ref{fig:airways} includes the airways connecting the environment to the alveoli.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1.0\linewidth]{./figure/airways.png}
+    \caption{Passage to and from Alveoli}
+    \label{fig:airways}
+\end{figure}
+
+\subsubsection{Anatomical Dead Space ($VD_{ana}$)}
+
+Any air that enters the airways is part of $V_e$, but it is not part of $V_A$ unless it reaches an alveoli. For example, at the end of an inspiration the air remaining in the upper airways (nasal passages, the back of the throat, trachea) is part of $V_e$, but not part of $V_A$. The volume of air that is taken into the airways that does not reach the alveoli is referred to as anatomical dead space ($VD_{ana}$) and represents the conduction (non respiration) zone of the airways. $VD_{ana}$ is considered a fixed volume ($mL$). For example, if $VD_{ana} = 100 mL$, and 400 $mL$ is inspired with tidal volume ($V_T$), then 300 ($mL$) reaches alveoli ($V_A$). 
+
+\paragraph{Question:}
+
+Does $V_A (mL/min)$ change if $V_e (mL/min)$ stays the same but is achieved with different volume ($mL$) per breath at different breathing frequencies (respiratory rates)? Answer this by figuring out the $V_A (mL/min)$ and $V_e (mL/min)$ if $VD_{ana} = 100 mL$ when breathing 24 breaths per minute at 250 $mL/breath$; as compared to breathing 12 breathes per minutes at 500 $mL/breath$; as compared to breathing 6 breaths per minute at 1000 $mL/breath$. With each breathing pattern, $VD_{ana} = 100 mL$ since this is a fixed volume.
+
+\subsubsection{Upper Airways}
+
+The upper airways include the nasal passageways, the nasopharynyx, the pharanyx. Up to this point (the pharynx) the oral passages are also an option (but suboptimal) for breathing. The nasopharynx passes into the orophraynx which passes into the hypopharynx (laryngopharynx). At this point the epiglottis is the gatekeeper between the larynx (for air) and the esophagus (for food and drink).  The larynx which houses the vocal cords and then continues on into the trachea. Upper airway passages are lined with epithelial cells that include, in various locations, mucus production cells and cilia. Cilia are small cellular extensions that promote the movement of substances such as mucus across the membrane surface. Mucus and cilia in the airways are combined as a defense mechanism referred to as mucociliary activity. Together they promote the trapping of particles in mucus (including pathogens) and moving the mucus for removal through sneezing (nasopharynx), coughing (deeper than the nasopharynx), or swallowing (as an option when at the level of the hypopharynx near the epiglottis). 
+
+\paragraph{Bronchopulmonary Hygiene \& Airway Clearance}
+Mucocilary activity is an important component of what is called bronchopulmonary hygiene (BPH), while sneezing and coughing are called airway clearance. Techniques to facilitate airway clearance are airway clearance techniques (ACT). BPH and ACT include several manual techniques within the physical therapy scope of practice. Just as increasing tissue extensibility through manual techniques may facilitate the range of motion necessary to move during therapeutic exercise to then maintain tissue extensibility; improving ventilation and respiration through manual techniques may facilitate the respiration necessary to move during exercise to then maintain respiration.  
+
+\paragraph{Nasal Passageways} are lined with epithelial cells rich in olfactory sensors (sense of smell) and goblet cells which are responsible for creating the mucus membrane. The passages include a set of turbinates that create turbulent flow of air through the passageways which is important for immunity, humidification, adding nitric oxide and the sense of smell. The turbulent flow of air encourages interaction between the air entering the the nasal passages and the cellular epithelial mucus membrane. Large particles (dust, many pathogens, allergens) never get past becoming stuck in the mucus of the nasal passage membranes, serving an important immune and protective function. Interaction with the nasal passage membrane also humidifies the air (adds water) and adds nitric oxide (NO). NO enhances local defense mechanisms via direct inhibition of pathogen growth and stimulation of mucociliary activity. NO from the nose and sinuses that is added to the air with every breath taken through the nose. NO reaches the alveoli in a more diluted form and enhances alveolar respiration by local vasodilation of pulmonary capillaries.
+
+% Left off here
+
+
+\subsubsection{Lower Airways}
+The trachea divides at the carina into two main bronchi (right and left) for the right and left lungs (respectively). Each bronchi splits into two branches for approximately 17 generations until ending with approximately 300,000 alveoli. The final branch of the bronchi is a bronchiole and is sometimes referred to as the respiratory bronchiole. 
+
+
+
+\subsubsection{Trachea \& Bronchi}
+Coughing clears the lower to middle airways
+All air passes through trachea, splits into two main bronchi at the carina
+
+mucociliary escalator
+
+
+\subsubsection{Bronchioles \& Alveoli}
+
+Bronchioles and respiratory bronchioles
 
 \subsection{Mechanics}
+
+Diaphragm as a muscle
+
+
+Inspiratory muscles - primarily diaphragm (phrenic nerve, C1-3); diaphragm tensions pulls the thoracic cavity down (central tendon extends down to it's attachments); and it pulls up on the lower ribs
+
+
+internal intercostals, any muscle that can expand the chest wall (spinal extensors, scalenes, sternocleomastoid)
+
+Expiratory muscles - only needed during exhalation at rates greater than resting tidal breathing, or forced expiratory manuevers such as sneezing, coughing; external intercostals; abdominal muscles (including transverse abdominus, internal and external obliques, rectus abdominus)
+
+Rib movements
+
 
 \subsection{Pressures}
 
 \subsection{Volumes \& Capacities}
 
-\subsection{Airways}
 
-\subsection{Minute Ventilation}
 
 \section{Ventilation - Perfusion Matching}
+
+\begin{itemize}
+       \item Anatomical dead space is air ventilated but that does not make it into alveoli. Anatomical dead space = $V_e - V_A$
+    \item Physiological dead space occurs in alveoli that receive ventilation but do not receive alveolar circulation
+    \item Dead space ventilation ($V_{DS}$) is the sum of anatomical and physiological dead space
+\end{itemize}
+
+
 Chapter \ref{chp:alveolar_oxygen} on Ventilation considers the concept of ventilation - perfusion $\dot{V}/\dot{Q}$ matching, the impact of body position on $\dot{V}/\dot{Q}$ matching zones, and the impact of $\dot{V}/\dot{Q}$ matching on the $P_AO_2-P_aO_2$ gradient, otherwise known as the A-a gradient.
 \subsection{Perfusion Zones}
 $\dot{V}/\dot{Q}$
 
+requires a continuous exchange (refresh) of air in the alveoli with the environment known as alveolar ventilation ($V_A$). $V_A$ needs to matched with alveolar capillary blood flow. $V_A$ requires ventilation (breathing); and alveolar capillary blood flow requires the distribution of pulmonary circulation ($Q$) to ventilated alveoli. 
+
+
 \subsection{A-a Gradient}
 
+
+\section{Regulation}
+
+Automatic but voluntary control - we breath without thinking about it, but we can think about it and control it (like posture and gait)
+
+%The regulation of blood $O_2$ and $CO_2$ includes monitoring these values with chemoreceptors, but the efferent (action) side of these regulatory pathways include variations in ventilation.
+
+
 \section{Practice Connections}
+
+\subsection{Nose vs. mouth breathing}
 
 \subsection{Pulmonary Function Tests - Forced Expiratory Manuever}
 
