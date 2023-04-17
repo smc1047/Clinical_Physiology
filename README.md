@@ -5,7 +5,7 @@ A manuscript in progress for a book (Open Educational Resource, OER) for use in 
 
 To enter comments into chapter text start a new line and begin the line with a percent sign %
 
-% This is a comment that will not appear in the chapter when compiled
+% Anything starting with an “%” a comment that will not appear when compiled
 
 Note:
 Some of the chapters ended up taking on different names after I had named the files for the chapters (which is referred to in the index.tex file that tells LaTeX which files to put together (and in what order) for the book. I'll eventually change the file names and the index file to represent the new names.
@@ -13,11 +13,11 @@ Some of the chapters ended up taking on different names after I had named the fi
 ## Getting ready for the second draft (2023)
 
 - Need a section in the Preface on "How to Read This Book"
-- Need a first draft for the Digestion, Absorption, Metabolism chapter (Sean - but need to check with Kelly)
-- Need a first draft for the integrity section (several chapters) (Kyle and Sean)
+- Need a first draft for the Digestion, Absorption, Metabolism chapter (Kelly and Sean)
+- Need a first draft for the integrity section (several chapters) (Sean and Kyle)
+	- The detail necessary for this chapter is driven by the need to understand these concepts for muscle adaptation (changes in mass and function) to stressors, perturbations, interventions, injuries, etc.
 - Need a first draft for the Integrative exercises section
   - Fick's Equation (Nathaniel)
-  - Calcium Regulation (Sean)
   - Exercise Prescription (Kyle)
 - Consider dividing Blood Flow chapter into two - last year students got much more from the two "Pulmonary" chapters - divided into Ventilation and Respiration than they did from the one "Blood Flow" chapter. Need to decide the best way to divide that chapter to have it fit
 - The pulmonary chapters (Ventilation and Respiration) need graphics to replace my drawings
