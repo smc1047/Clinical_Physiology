@@ -42,3 +42,7 @@ Some of the chapters ended up taking on different names after I had named the fi
 ## Longer term steps to the project
 
 - Generate original graphics of simulation results using either Hummod or JSim models (or other Physiome based models)
+
+## Testing 
+
+- A test to see whether or not Overleaf can pull updated versions from GitHub and put them into Dropbox. If this text is present in the Dropbox version then the workflow works....
