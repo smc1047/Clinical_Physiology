@@ -6,7 +6,7 @@
 
 \title{manuscript in progress \\~\\ {\bf{\huge{Clinical Physiology:}}  \\ a muscle centered approach}}
 
-\author{\textbf{Editors:} \\ Sean Collins \\ Bog Sniezek \\}
+\author{\textbf{Authors:} \\ Sean Collins \\ Bog Sniezek \\}
 
 \date{Updated on \today}
 \maketitle
@@ -16,22 +16,58 @@
 \thispagestyle{empty}
 
 {\small
-Copyright \copyright ~2023 Sean Collins
-
+Copyright \copyright 2023 Sean Collins
 
 \vspace{0.2in}
 
 \begin{flushleft}
-PT Centered Press       \\
-7B Red Oak Way        \\
-Boscawen, NH, 03303
+Sean Collins, PT, ScD       \\
+Professor of Clinical Inquiry        \\
+Doctor of Physical Therapy Program \\
+Plymouth State University \\
+17 High Street, MSC68 \\
+Plymouth, NH 03264 \\
+smcollins1@plymouth.edu 
 \end{flushleft}
 
-Permission is granted to copy, distribute, and/or modify the text of this document under the terms of the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License, which is available at \url{https://creativecommons.org/licenses/by-nc-sa/3.0/}. This copyright only refers to the text of the book. Restrictions exist for figures rendered with BioRender and for permission to use any figure created with BioRender please contact the author for details. Permission to recreate a figure, capturing its essential concepts for example, is given through the CC BY-NC-SA 3.0 license, but use of an exact figure which has been created in BioRender is restricted by the terms of the authors BioRender Academic License. In such instances this will require the requester to secure their own BioRender Account and follow the terms of that account.
+\vspace{0.2in}
+The original form of this book is \LaTeX\ source code.  Compiling this \LaTeX\ source has the effect of generating a device-independent representation of a textbook, which can be converted to other formats and printed. However, this also means there will be an occasional typo with larger than expected, or strange, consequences. If this is noticed - please let the author know at the address above. 
+The \LaTeX\ source code can be found on \href{https://github.com/scollinspt/Clinical_Physiology}{ GitHub at this Link.}
 
-The original form of this book is \LaTeX\ source code.  Compiling this \LaTeX\ source has the effect of generating a device-independent representation of a textbook, which can be converted to other formats and printed.
+\newpage
+\section*{About the book}
+Clinical Physiology: A muscle centered approach is a manuscript (book) in progress. The draft you are reading was released \today.
+
+The project emerged during the authors' conversations about Unifying Systems Theory (UST) \cite{kahlen_perception_2017}. UST provided the system framework for the primary author (Collins) to consider how physical therapists should learn clinical physiology as a foundational knowledge for practice. Our conclusion was a muscle centered approach.
 
 \vspace{0.2in}
+
+A muscle centered approach puts the muscle fiber (cell) at the center of inquiry. Part I establishes some preliminaries to put the book and the muscle fiber in context. The context of the book is the reader's learning. The context of the muscle fiber is in the wider area of inquiry regarding movement.  Part II focuses on what a muscle fiber does as a system. Muscle fibers create tension. The process of creating tension is an inward looking process. We dig deep into the cellular, mechanical and chemical mechanisms of the muscle fiber. Part III focuses on the necessary supporting systems for the muscle fiber. Each muscle fiber receives and releases material from its surrounding environment (extra cellular fluid). Several physiological systems integrate to ensure the stability of that environment. Part IV focuses on the muscle molecular biology. Specifically, how the muscle continues to fulfill its role of creating tension without being too large of a burden on the physiological support systems. Topics include myostasis, atrophy, hypertrophy, and repair. Part V includes a variety of integrated exercises. These topics have been selected to highlight the need for physiological coordination.
+
+\vspace{5mm}
+
+\section*{Clinical Physiology in a DPT curriculum}
+A DPT program has the challenge of educating individuals from diverse backgrounds in the core set of knowledge to become physical therapists. Clinical Physiology is foundational knowledge. The book fits best as a first term course, or a first course on human physiology.\footnotemark{}\footnotetext{The book assumes the reader has taken pre requisite courses such as anatomy \& physiology, physics, and chemistry.} It is not an exercise physiology text, though it has a lot of content that would be found in an exercise physiology text. It is not a medical physiology text, though it has a lot of content that would be found in a medical physiology text. The book includes foundational knowledge of physiology for a physical therapist. That knowledge falls in a previously unmet textbook space that combines exercise physiology and medical physiology. 
+
+\section*{Contributors}
+
+ \subsection*{Sean Collins, PT, ScD}
+Sean Collins is a physical therapist with a doctor of science in ergonomics and epidemiology from the UMass Lowell. He was professor of physical therapy and biomedical engineering at UMass Lowell for 18 years prior to relocating to Plymouth State University (PSU) as the founding director of the Doctor of Physical Therapy (DPT) program where is currently a professor. This project is possible because of the PSU DPT curriculum, and the generous sabbatical support from the PSU administration and DPT faculty colleagues. He is the primary editor for the project and author of most chapters.
+
+\subsection*{Bog Sniezek}
+Bog Sniezek is a systems scientist (more to come). He is the supporting editor and founder of the systems science approach being utilized (Unified Systems Theory).
+
+\subsection*{Tom Sniezek, PT, DPT}
+Tom Sniezek is a physical therapist, graduate of the DPT program at UMass Lowell and currently practices physical therapy in Ohio. (More on role to come)
+
+\subsection*{Nathaniel Mailloux, PT, DPT}
+Nathaniel Mailloux is a physical therapist, graduate of the DPT program at Plymouth State University and currently practices physical therapy in New York. He is the primary author for the Integrative Exercise on Fick's Equation.
+
+\subsection*{Kyle Coffey, PT, DPT}
+Bio coming soon. He is the primary author for the Integrative Exercise on Exercise Prescription; and co-author for the chapters in the section on Muscle Integrity.
+
+\subsection*{Kelly Legacy, PT, DPT}
+Clinical Assistant Professor \& Director of Clinical Education at Plymouth State University. Dr. Legacy teaches the Exercise Prescription and Nutrition course in the DPT program. She is the primary author of the chapter on Digestion, Absorption and Metabolism.
 
 } % end small
 
@@ -48,7 +84,7 @@ The original form of this book is \LaTeX\ source code.  Compiling this \LaTeX\ s
     \label{toc-contents}
 %\end{multicols}
 
-\listoffigures
+%  \listoffigures
 %	\listoftables
 	
 %\begin{multicols}{2}
@@ -74,15 +110,18 @@ The original form of this book is \LaTeX\ source code.  Compiling this \LaTeX\ s
 
 %\input{}
 %\input{./chapter/contributors.tex}
-\input{./chapter/preface.tex}
+%\input{./chapter/preface.tex}
 
 
 %\mainmatter
+\part{Preliminaries}
 
+\input{./chapter/advice.tex}
 \input{./chapter/introduction.tex}
-
-\part{Muscle Fidelity \& Efficacy}
 \input{./chapter/fundamentals.tex}
+
+\part{Muscle}
+
 \input{./chapter/tension.tex}
 \input{./chapter/excitation.tex}
 \input{./chapter/regulation.tex}
@@ -90,12 +129,12 @@ The original form of this book is \LaTeX\ source code.  Compiling this \LaTeX\ s
 
 
 \part{Muscle Support}
-\input{./chapter/ecf_microcirculation.tex}
-\input{./chapter/blood_flow.tex}
-\input{./chapter/blood_content.tex}
-\input{./chapter/blood_oxygen}
-\input{./chapter/alveolar_oxygen}
-\input{./chapter/blood_nutrients}
+\input{./chapter/microcirculation.tex}
+\input{./chapter/circulation.tex}
+\input{./chapter/filtration_reabsorption_secretion.tex}
+\input{./chapter/respiration}
+\input{./chapter/ventilation}
+\input{./chapter/digestion_absorption_metabolism}
 
 \part{Muscle Integrity}
 \input{./chapter/defense.tex}
