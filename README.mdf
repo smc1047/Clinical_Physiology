@@ -1,25 +1,23 @@
 # Clinical Physiology
 ## A muscle centered approach
 
-A manuscript in progress for a book (Open Educational Resource, OER) for use in the clinical physiology in the DPT program at Plymouth State University.
+A manuscript in progress for a book (Open Educational Resource, OER) for use in the clinical physiology course in the DPT program at Plymouth State University. Once the second draft is completed we may seek a publisher so that a print version is available (at a cost). But the electronic version will remain licensed as an OER.
 
 To enter comments into chapter text start a new line and begin the line with a percent sign %
 
-% Anything starting with an “%” a comment that will not appear when compiled
-
-Note:
-Some of the chapters ended up taking on different names after I had named the files for the chapters (which is referred to in the index.tex file that tells LaTeX which files to put together (and in what order) for the book. I'll eventually change the file names and the index file to represent the new names.
+% Anything starting with an “%” a comment that will not appear when compile
 
 ## Getting ready for the second draft (2023)
 
-- Need a section in the Preface on "How to Read This Book"
+- Add a chapter called "Advice for the Reader based largely on Adler's "How to Read a Book"
+- Create "Part I" to include Advice for the Reader, Introduction, Fundamentals
 - Need a first draft for the Digestion, Absorption, Metabolism chapter (Kelly and Sean)
 - Need a first draft for the integrity section (several chapters) (Sean and Kyle)
 	- The detail necessary for this chapter is driven by the need to understand these concepts for muscle adaptation (changes in mass and function) to stressors, perturbations, interventions, injuries, etc.
 - Need a first draft for the Integrative exercises section
   - Fick's Equation (Nathaniel)
   - Exercise Prescription (Kyle)
-- Consider dividing Blood Flow chapter into two - last year students got much more from the two "Pulmonary" chapters - divided into Ventilation and Respiration than they did from the one "Blood Flow" chapter. Need to decide the best way to divide that chapter to have it fit
+- Divide Blood Flow chapter into two - last year students got much more from the two "Pulmonary" chapters - divided into Ventilation and Respiration than they did from the one "Blood Flow" chapter. Need to decide the best way to divide that chapter to have it fit
 - The pulmonary chapters (Ventilation and Respiration) need graphics to replace my drawings
 - All second draft chapters need improved objectives
 - All second draft chapters need proof reading and to be improved in terms of succinct, clear, language (write tight)
@@ -41,4 +39,4 @@ Some of the chapters ended up taking on different names after I had named the fi
 
 ## Longer term steps to the project
 
-- Generate original graphics of simulation results using either Hummod or JSim models (or other Physiome based models)
+- Generate original graphics of simulation results using JSim models (or other Physiome based models)
